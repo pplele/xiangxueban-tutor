@@ -1,0 +1,70 @@
+<view class="topbar">
+  <view
+    wx:for="{{subjects}}"
+    wx:key="key"
+    class="pill {{subject === item.key ? 'active' : ''}}"
+    data-key="{{item.key}}"
+    bindtap="switchSubject"
+  >{{item.label}}</view>
+</view>
+
+<view class="card">
+  <view class="title">拍下这道题</view>
+  <view class="sub">拍照后自动识别题干，识别结果可以改</view>
+
+  <block wx:if="{{imagePath}}">
+    <image class="shot" src="{{imagePath}}" mode="widthFix"></image>
+    <view class="retake" bindtap="chooseImage">重拍 / 换一张</view>
+  </block>
+  <view wx:else class="capture" bindtap="chooseImage">
+    <view class="capture-box"></view>
+    <view class="capture-text">点击拍照</view>
+  </view>
+
+  <view wx:if="{{recognizing}}" class="hint-info">正在识别题目，大约 2–3 秒…</view>
+</view>
+
+<view class="card">
+  <view class="title">题目内容</view>
+  <view class="sub">识别有误可直接改；检索和查重都基于这段文字</view>
+  <textarea
+    class="input"
+    value="{{text}}"
+    bindinput="onTextInput"
+    placeholder="拍照后自动填入，也可以手动粘贴题目"
+    maxlength="2000"
+    auto-height
+  ></textarea>
+  <view wx:if="{{previewNodes.length}}" class="preview">
+    <view class="preview-label">排版预览</view>
+    <rich-text nodes="{{previewNodes}}"></rich-text>
+  </view>
+  <view wx:if="{{uncertain.length}}" class="hint-warn">
+    <view>这些地方没看清，请核对后再发送：</view>
+    <view wx:for="{{uncertain}}" wx:key="*this" class="mono">· {{item}}</view>
+  </view>
+</view>
+
+<view class="card">
+  <view class="title">哪里不懂</view>
+  <view class="sub">说说你卡在哪一步，老师讲得更有针对性</view>
+  <view class="ask-row">
+    <input
+      class="input-inline"
+      value="{{question}}"
+      bindinput="onQuestionInput"
+      placeholder="例如：不知道第一步用哪个公式"
+    />
+    <view
+      wx:if="{{voiceEnabled}}"
+      class="voice {{recording ? 'recording' : ''}}"
+      bindtouchstart="startVoice"
+      bindtouchend="stopVoice"
+    >{{recording ? '松开发送' : '按住说'}}</view>
+  </view>
+</view>
+
+<view class="footer">
+  <view class="btn-primary {{text ? '' : 'disabled'}}" bindtap="onAsk">问老师</view>
+  <view class="link" bindtap="goWrongbook">查看我的错题本 ›</view>
+</view>

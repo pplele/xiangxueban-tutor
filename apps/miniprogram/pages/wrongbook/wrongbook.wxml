@@ -1,0 +1,85 @@
+<view class="topbar">
+  <view
+    wx:for="{{subjects}}"
+    wx:key="key"
+    class="pill {{subject === item.key ? 'active' : ''}}"
+    data-key="{{item.key}}"
+    bindtap="switchSubject"
+  >{{item.label}}</view>
+</view>
+
+<view class="summary">待复习 {{total}} 道</view>
+
+<view wx:if="{{loading}}" class="empty">加载中…</view>
+<view wx:elif="{{error}}" class="empty">{{error}}</view>
+<view wx:elif="{{items.length === 0}}" class="empty">
+  <view>这个科目还没有错题</view>
+  <view class="btn-ghost" style="margin-top:28rpx" bindtap="goCapture">去拍一道题</view>
+</view>
+
+<view
+  wx:for="{{items}}"
+  wx:key="id"
+  class="card item"
+  data-id="{{item.id}}"
+  bindtap="openNote"
+>
+  <view class="item-head">
+    <view class="chapter">{{item.chapter}}</view>
+    <view class="status">{{item.status}}</view>
+  </view>
+  <view class="stem">
+    <rich-text wx:if="{{item.stemNodes.length}}" nodes="{{item.stemNodes}}"></rich-text>
+    <text wx:else>{{item.stem}}</text>
+  </view>
+  <view wx:if="{{item.noteNodes.length}}" class="note">
+    <view class="note-tag">备注</view>
+    <view class="note-body">
+      <rich-text nodes="{{item.noteNodes}}"></rich-text>
+    </view>
+  </view>
+  <view class="meta">考点 {{item.kp}}{{item.source === 'miniprogram' ? ' · 拍照录入' : ''}}</view>
+</view>
+
+<view wx:if="{{items.length >= total && items.length > 0}}" class="end">没有更多了</view>
+
+<view class="fab" bindtap="goCapture">拍题</view>
+
+<view wx:if="{{editing}}" class="mask" bindtap="closeNote"></view>
+<view wx:if="{{editing}}" class="sheet">
+  <view class="sheet-title">错题详情</view>
+  <scroll-view scroll-y class="stem-box">
+    <rich-text wx:if="{{stemNodes.length}}" nodes="{{stemNodes}}"></rich-text>
+    <text wx:else>{{editing.stem}}</text>
+  </scroll-view>
+
+  <view class="field-label">解析</view>
+  <scroll-view wx:if="{{solutionNodes.length}}" scroll-y class="solution-box">
+    <rich-text nodes="{{solutionNodes}}"></rich-text>
+  </scroll-view>
+  <view wx:else class="field-empty">这道题还没有解析，下次问老师时可以顺手存一份</view>
+
+  <view class="field-label">
+    备注（错因 / 下次注意）
+    <text wx:if="{{noteEditing}}" class="field-tip">公式前后加 $，如 $\frac{1}{x}$</text>
+  </view>
+  <view wx:if="{{!noteEditing}}" class="note-view" bindtap="startEditNote">
+    <rich-text wx:if="{{noteNodes.length}}" nodes="{{noteNodes}}"></rich-text>
+    <view wx:else class="note-empty">还没有备注，点这里写下错因，复习时提醒自己</view>
+  </view>
+  <textarea
+    wx:else
+    class="field"
+    value="{{noteDraft}}"
+    bindinput="onNoteInput"
+    auto-height
+    maxlength="1000"
+    focus="{{true}}"
+    placeholder="记下错因，复习时提醒自己；公式用 $...$ 包起来，例如 $\frac{1}{x}\to 0$"
+  ></textarea>
+  <view class="row gap" style="margin-top:24rpx">
+    <view class="btn-ghost" style="flex:1" bindtap="closeNote">取消</view>
+    <view wx:if="{{noteEditing}}" class="btn-primary" style="flex:2" bindtap="saveNote">{{saving ? '保存中…' : '保存备注'}}</view>
+    <view wx:else class="btn-primary" style="flex:2" bindtap="startEditNote">编辑备注</view>
+  </view>
+</view>

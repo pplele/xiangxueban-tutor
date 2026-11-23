@@ -1,0 +1,105 @@
+page {
+  background: #f5f6f8;
+  font-family: -apple-system, "PingFang SC", "Helvetica Neue", sans-serif;
+  color: #1f2329;
+  font-size: 30rpx;
+  line-height: 1.6;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 20rpx;
+  padding: 32rpx;
+  margin: 24rpx;
+}
+
+.title {
+  font-size: 34rpx;
+  font-weight: 600;
+  margin-bottom: 8rpx;
+}
+
+.sub {
+  font-size: 24rpx;
+  color: #8a9099;
+}
+
+.btn-primary {
+  background: #1f6feb;
+  color: #ffffff;
+  border-radius: 16rpx;
+  font-size: 32rpx;
+  padding: 26rpx;
+  text-align: center;
+}
+
+.btn-primary.disabled {
+  background: #c9d3e0;
+  color: #ffffff;
+}
+
+.btn-ghost {
+  border: 1rpx solid #d5dae1;
+  color: #1f2329;
+  border-radius: 16rpx;
+  font-size: 30rpx;
+  padding: 22rpx;
+  text-align: center;
+  background: #ffffff;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.gap {
+  gap: 20rpx;
+}
+
+.pill {
+  padding: 12rpx 28rpx;
+  border-radius: 999rpx;
+  background: #ffffff;
+  color: #5a6069;
+  font-size: 26rpx;
+  border: 1rpx solid #e3e7ec;
+}
+
+.pill.active {
+  background: #1f6feb;
+  color: #ffffff;
+  border-color: #1f6feb;
+}
+
+.hint-warn {
+  background: #fff7e6;
+  border: 1rpx solid #ffd591;
+  color: #ad6800;
+  border-radius: 12rpx;
+  padding: 20rpx 24rpx;
+  font-size: 26rpx;
+  margin-top: 20rpx;
+}
+
+.hint-info {
+  background: #eef4ff;
+  border: 1rpx solid #c7d9f7;
+  color: #1f4f9c;
+  border-radius: 12rpx;
+  padding: 20rpx 24rpx;
+  font-size: 26rpx;
+  margin-top: 20rpx;
+}
+
+.mono {
+  font-family: Menlo, monospace;
+  font-size: 26rpx;
+}
+
+.answer {
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 29rpx;
+  line-height: 1.75;
+}

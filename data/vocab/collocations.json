@@ -1,0 +1,3803 @@
+[
+ {
+  "word": "a book of",
+  "phonetic": "",
+  "meaning": "……的一本（双重所有格 a book of Shirley's）",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "a piece of advice",
+  "phonetic": "",
+  "meaning": "一条建议（advice 不可数）",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "absence from",
+  "phonetic": "",
+  "meaning": "缺席，不在",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "access to",
+  "phonetic": "",
+  "meaning": "进入；有……的机会",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "acquaintance with",
+  "phonetic": "",
+  "meaning": "与(某人)认识，对(某事物)的了解",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "addiction to",
+  "phonetic": "",
+  "meaning": "……的嗜好",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "adjustment to",
+  "phonetic": "",
+  "meaning": "调整",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "admiration for",
+  "phonetic": "",
+  "meaning": "钦佩，赞赏",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "admission to",
+  "phonetic": "",
+  "meaning": "进入，加入(机构，组织等)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "advantage over",
+  "phonetic": "",
+  "meaning": "相对于……的有利条件",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "advice/suggestion on",
+  "phonetic": "",
+  "meaning": "有关……的建议",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "affection for",
+  "phonetic": "",
+  "meaning": "对……的喜爱",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "answer to",
+  "phonetic": "",
+  "meaning": "……的答案",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "anxiety/desire for",
+  "phonetic": "",
+  "meaning": "渴望",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "apology for",
+  "phonetic": "",
+  "meaning": "因……道歉",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "appetite for",
+  "phonetic": "",
+  "meaning": "对……的强烈欲望",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "application for",
+  "phonetic": "",
+  "meaning": "申请",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "application to",
+  "phonetic": "",
+  "meaning": "应用到；向……申请",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "appointment with",
+  "phonetic": "",
+  "meaning": "与……的约定，约会",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "approach to",
+  "phonetic": "",
+  "meaning": "……的方法",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "as a matter of fact",
+  "phonetic": "",
+  "meaning": "事实上",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "as a result",
+  "phonetic": "",
+  "meaning": "因此，结果",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "as a result of",
+  "phonetic": "",
+  "meaning": "由于",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "ask about",
+  "phonetic": "",
+  "meaning": "询问，问",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "association with",
+  "phonetic": "",
+  "meaning": "与……的关联",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "at a/the rate/speed of",
+  "phonetic": "",
+  "meaning": "以……的速度",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "at all cost(s)",
+  "phonetic": "",
+  "meaning": "不惜任何代价",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "at first",
+  "phonetic": "",
+  "meaning": "起初",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "at high/low/top speed",
+  "phonetic": "",
+  "meaning": "以高/低/最高速",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "at home",
+  "phonetic": "",
+  "meaning": "在家里；在国内；舒适自在",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "at last",
+  "phonetic": "",
+  "meaning": "终于，最终",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "at once",
+  "phonetic": "",
+  "meaning": "立即；同时",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "at one's convenience",
+  "phonetic": "",
+  "meaning": "在某人方便时",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "at random",
+  "phonetic": "",
+  "meaning": "随意，随机",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "at the beginning of",
+  "phonetic": "",
+  "meaning": "在……的开始",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "at the end of",
+  "phonetic": "",
+  "meaning": "到……的尽头(或极限)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "at the expense of",
+  "phonetic": "",
+  "meaning": "在牺牲(或损害)……的情况下",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "at the same time",
+  "phonetic": "",
+  "meaning": "同时",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "at times",
+  "phonetic": "",
+  "meaning": "有时，间或",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "attack on",
+  "phonetic": "",
+  "meaning": "攻击",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "attempt at",
+  "phonetic": "",
+  "meaning": "试图",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "attention to",
+  "phonetic": "",
+  "meaning": "对……的关注",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "attitude to",
+  "phonetic": "",
+  "meaning": "对……的态度",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "balance between",
+  "phonetic": "",
+  "meaning": "……之间的平衡",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be absent from",
+  "phonetic": "",
+  "meaning": "缺席",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be absorbed in",
+  "phonetic": "",
+  "meaning": "专心于，全神贯注于",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be accustomed to",
+  "phonetic": "",
+  "meaning": "习惯于",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be addicted to",
+  "phonetic": "",
+  "meaning": "沉迷于，对……上瘾",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be afraid of",
+  "phonetic": "",
+  "meaning": "害怕，担心",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be amazed at",
+  "phonetic": "",
+  "meaning": "对……感到吃惊",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be angry at",
+  "phonetic": "",
+  "meaning": "为……生气",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be angry with",
+  "phonetic": "",
+  "meaning": "生……的气",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be annoyed at",
+  "phonetic": "",
+  "meaning": "对……感到恼火",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be annoyed with",
+  "phonetic": "",
+  "meaning": "对……感到恼火",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be anxious about",
+  "phonetic": "",
+  "meaning": "为……担忧",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be anxious for",
+  "phonetic": "",
+  "meaning": "为……担忧",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be appropriate for",
+  "phonetic": "",
+  "meaning": "对……合适",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be appropriate to",
+  "phonetic": "",
+  "meaning": "适合",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be ashamed of",
+  "phonetic": "",
+  "meaning": "为……感到羞愧",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be associated with",
+  "phonetic": "",
+  "meaning": "与……有关",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be astonished at",
+  "phonetic": "",
+  "meaning": "对……感到十分惊讶",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be attractive to",
+  "phonetic": "",
+  "meaning": "对……有吸引力",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be available to",
+  "phonetic": "",
+  "meaning": "可获得，可购得",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be aware of",
+  "phonetic": "",
+  "meaning": "清楚，意识到",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be bad at",
+  "phonetic": "",
+  "meaning": "不善于",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be bad for",
+  "phonetic": "",
+  "meaning": "对……有害",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be beneficial to",
+  "phonetic": "",
+  "meaning": "对……有益",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be blind to",
+  "phonetic": "",
+  "meaning": "对……视而不见",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be bored with",
+  "phonetic": "",
+  "meaning": "对……感到厌烦",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be busy with",
+  "phonetic": "",
+  "meaning": "忙于",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be capable of",
+  "phonetic": "",
+  "meaning": "有能力",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be careful about",
+  "phonetic": "",
+  "meaning": "小心，当心",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be careful of",
+  "phonetic": "",
+  "meaning": "当心",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be careful with",
+  "phonetic": "",
+  "meaning": "小心，当心",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be certain of",
+  "phonetic": "",
+  "meaning": "确信",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be clever at",
+  "phonetic": "",
+  "meaning": "善于",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be common to",
+  "phonetic": "",
+  "meaning": "共有，共同",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be concerned about",
+  "phonetic": "",
+  "meaning": "对……感到担忧",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be concerned for",
+  "phonetic": "",
+  "meaning": "对……感到担心、忧虑",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be concerned with",
+  "phonetic": "",
+  "meaning": "关心",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be confident of",
+  "phonetic": "",
+  "meaning": "对……有把握",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be confused about",
+  "phonetic": "",
+  "meaning": "对……感到困惑",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be connected with",
+  "phonetic": "",
+  "meaning": "与……有关",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be content with",
+  "phonetic": "",
+  "meaning": "对……满意、满足",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be convenient for",
+  "phonetic": "",
+  "meaning": "对……方便",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be curious about",
+  "phonetic": "",
+  "meaning": "对……感到好奇",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be delighted at",
+  "phonetic": "",
+  "meaning": "对……感到高兴",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be delighted with",
+  "phonetic": "",
+  "meaning": "对……满意",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be devoted to",
+  "phonetic": "",
+  "meaning": "热衷于",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be different from",
+  "phonetic": "",
+  "meaning": "与……不同",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be doubtful about",
+  "phonetic": "",
+  "meaning": "对……持怀疑态度",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be eager for",
+  "phonetic": "",
+  "meaning": "渴望",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be engaged in",
+  "phonetic": "",
+  "meaning": "从事",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be equal to",
+  "phonetic": "",
+  "meaning": "相当于，能胜任",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be essential to",
+  "phonetic": "",
+  "meaning": "对……至关重要",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be excited about",
+  "phonetic": "",
+  "meaning": "对……感到兴奋",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be fair to",
+  "phonetic": "",
+  "meaning": "对……公平",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be faithful to",
+  "phonetic": "",
+  "meaning": "对……忠诚，忠于",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be famous for",
+  "phonetic": "",
+  "meaning": "因……而闻名",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be fit for",
+  "phonetic": "",
+  "meaning": "适合",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be fond of",
+  "phonetic": "",
+  "meaning": "喜欢",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be free from",
+  "phonetic": "",
+  "meaning": "不受……伤害(或影响等)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be friendly to",
+  "phonetic": "",
+  "meaning": "对……友好",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be glad about",
+  "phonetic": "",
+  "meaning": "对……感到高兴",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be good at",
+  "phonetic": "",
+  "meaning": "擅长",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be good for",
+  "phonetic": "",
+  "meaning": "对……有好处",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be grateful to",
+  "phonetic": "",
+  "meaning": "感谢",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be happy about",
+  "phonetic": "",
+  "meaning": "对……感到满意",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be harmful to",
+  "phonetic": "",
+  "meaning": "对……有害",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be helpful to",
+  "phonetic": "",
+  "meaning": "对……有用、有帮助",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be hopeful about",
+  "phonetic": "",
+  "meaning": "对……抱有希望",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be interested in",
+  "phonetic": "",
+  "meaning": "对……感兴趣",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be involved in",
+  "phonetic": "",
+  "meaning": "专心于；参与，涉及",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be jealous of",
+  "phonetic": "",
+  "meaning": "嫉妒",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be known for",
+  "phonetic": "",
+  "meaning": "因为……而出名",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be lacking in",
+  "phonetic": "",
+  "meaning": "缺乏",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be late for",
+  "phonetic": "",
+  "meaning": "……迟到",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be lost in",
+  "phonetic": "",
+  "meaning": "沉浸于，全神贯注于",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be mad about",
+  "phonetic": "",
+  "meaning": "对……生气；特别喜欢",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be mad at",
+  "phonetic": "",
+  "meaning": "对……很生气",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be mad with",
+  "phonetic": "",
+  "meaning": "因……而丧失理智",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be nervous about",
+  "phonetic": "",
+  "meaning": "为……忧虑",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be on good terms with",
+  "phonetic": "",
+  "meaning": "与……关系融洽",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be open to",
+  "phonetic": "",
+  "meaning": "对……开放",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be optimistic about",
+  "phonetic": "",
+  "meaning": "对……乐观",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be particular about",
+  "phonetic": "",
+  "meaning": "对……讲究，挑剔",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be patient with",
+  "phonetic": "",
+  "meaning": "对……有耐心",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be pessimistic about",
+  "phonetic": "",
+  "meaning": "对……悲观",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be pleased with",
+  "phonetic": "",
+  "meaning": "对……满意",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be poor in",
+  "phonetic": "",
+  "meaning": "缺乏",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be popular with",
+  "phonetic": "",
+  "meaning": "受……欢迎",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be proud of",
+  "phonetic": "",
+  "meaning": "为……自豪、骄傲",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be qualified for",
+  "phonetic": "",
+  "meaning": "具备……的学历(或资历)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be ready for",
+  "phonetic": "",
+  "meaning": "为……做好准备",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be related to",
+  "phonetic": "",
+  "meaning": "与……有关",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be responsible for",
+  "phonetic": "",
+  "meaning": "对……负责",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be rich in",
+  "phonetic": "",
+  "meaning": "大量含有",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be satisfied with",
+  "phonetic": "",
+  "meaning": "对……感到满意、满足",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be sensitive to",
+  "phonetic": "",
+  "meaning": "对……敏感",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be separate from",
+  "phonetic": "",
+  "meaning": "与……分开",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be serious about",
+  "phonetic": "",
+  "meaning": "对……认真",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be similar to",
+  "phonetic": "",
+  "meaning": "与……相似",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be sorry about",
+  "phonetic": "",
+  "meaning": "对……感到抱歉",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be sorry for",
+  "phonetic": "",
+  "meaning": "对……感到抱歉",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be strict about",
+  "phonetic": "",
+  "meaning": "对(某事)要求严格",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be strict with",
+  "phonetic": "",
+  "meaning": "对(某人)严格",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be successful in",
+  "phonetic": "",
+  "meaning": "在……方面成功",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be suitable for",
+  "phonetic": "",
+  "meaning": "对……合适，适宜",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be superior to",
+  "phonetic": "",
+  "meaning": "优于",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be sure about",
+  "phonetic": "",
+  "meaning": "肯定，确信",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be surprised at",
+  "phonetic": "",
+  "meaning": "对……感到惊讶",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be tired of",
+  "phonetic": "",
+  "meaning": "对……厌倦",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be vital to",
+  "phonetic": "",
+  "meaning": "对……是极其重要的",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be weak in",
+  "phonetic": "",
+  "meaning": "不擅长",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be widely used in",
+  "phonetic": "",
+  "meaning": "被广泛应用于",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be worried about",
+  "phonetic": "",
+  "meaning": "为……担忧",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "be worthy of",
+  "phonetic": "",
+  "meaning": "值得",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "belief in",
+  "phonetic": "",
+  "meaning": "相信",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "beyond belief",
+  "phonetic": "",
+  "meaning": "令人难以置信",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "beyond doubt",
+  "phonetic": "",
+  "meaning": "无疑，确实",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "beyond question",
+  "phonetic": "",
+  "meaning": "毋庸置疑",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "beyond words",
+  "phonetic": "",
+  "meaning": "难以言表",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "break a promise",
+  "phonetic": "",
+  "meaning": "违背诺言",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "break away (from)",
+  "phonetic": "",
+  "meaning": "逃脱；背叛",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "break into",
+  "phonetic": "",
+  "meaning": "强行闯入；突然开始",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "break out (of)",
+  "phonetic": "",
+  "meaning": "摆脱(某状况)，逃离(某地)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "bring...into effect",
+  "phonetic": "",
+  "meaning": "实行，使生效，实施",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "bring...to an end",
+  "phonetic": "",
+  "meaning": "结束",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "but for",
+  "phonetic": "",
+  "meaning": "若非，要不是",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "by air/plane/airplane",
+  "phonetic": "",
+  "meaning": "乘飞机",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "by appointment",
+  "phonetic": "",
+  "meaning": "通过预约",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "by bike/bicycle",
+  "phonetic": "",
+  "meaning": "骑自行车",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "by boat/bus/car",
+  "phonetic": "",
+  "meaning": "乘船/公共汽车/轿车",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "by contrast",
+  "phonetic": "",
+  "meaning": "相比之下",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "by day/night",
+  "phonetic": "",
+  "meaning": "在白天/夜间",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "by hand",
+  "phonetic": "",
+  "meaning": "手工；(信件)亲手交付",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "by instinct",
+  "phonetic": "",
+  "meaning": "生来，凭本能",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "by now",
+  "phonetic": "",
+  "meaning": "现在，到目前为止",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "by request",
+  "phonetic": "",
+  "meaning": "按照要求",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "by turns",
+  "phonetic": "",
+  "meaning": "轮流地，交替地",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "call back",
+  "phonetic": "",
+  "meaning": "回电话，再打电话",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "call in",
+  "phonetic": "",
+  "meaning": "下令收回；召来",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "candidate for",
+  "phonetic": "",
+  "meaning": "……的候选人，申请人",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "capability of",
+  "phonetic": "",
+  "meaning": "……的能力",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "carry off",
+  "phonetic": "",
+  "meaning": "成功地对付；赢得",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "carry...through",
+  "phonetic": "",
+  "meaning": "帮助……渡过难关",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "charge for",
+  "phonetic": "",
+  "meaning": "收取……费",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "check into",
+  "phonetic": "",
+  "meaning": "登记入住(旅馆或私立医院)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "check on",
+  "phonetic": "",
+  "meaning": "核实，检查(是否一切正常)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "check out",
+  "phonetic": "",
+  "meaning": "查证；结账离开(旅馆等)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "clear away",
+  "phonetic": "",
+  "meaning": "把……清除掉(以留出空间)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "clear off",
+  "phonetic": "",
+  "meaning": "逃离，离开",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "clear out",
+  "phonetic": "",
+  "meaning": "把……清空",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "clear up",
+  "phonetic": "",
+  "meaning": "解决；清理；(天气)放晴",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "clue to",
+  "phonetic": "",
+  "meaning": "……的线索",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "come about",
+  "phonetic": "",
+  "meaning": "发生",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "come after",
+  "phonetic": "",
+  "meaning": "追逐，追随",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "come along",
+  "phonetic": "",
+  "meaning": "到达；跟随；进展",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "come back",
+  "phonetic": "",
+  "meaning": "返回；再度流行",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "come down",
+  "phonetic": "",
+  "meaning": "降低；落下",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "come from",
+  "phonetic": "",
+  "meaning": "来自，产自",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "come in",
+  "phonetic": "",
+  "meaning": "到达；流行；参与",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "come into",
+  "phonetic": "",
+  "meaning": "进入；继承",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "come into being",
+  "phonetic": "",
+  "meaning": "产生，存在，成立",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "come into effect/force",
+  "phonetic": "",
+  "meaning": "开始实施",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "come into existence",
+  "phonetic": "",
+  "meaning": "开始存在",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "come over",
+  "phonetic": "",
+  "meaning": "短暂造访；突然感到",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "come to a conclusion",
+  "phonetic": "",
+  "meaning": "得出结论",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "come up against",
+  "phonetic": "",
+  "meaning": "面对，遭到……的反对",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "come up to",
+  "phonetic": "",
+  "meaning": "达到",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "comment on",
+  "phonetic": "",
+  "meaning": "对……的评论",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "comparison with",
+  "phonetic": "",
+  "meaning": "与……相比",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "competition between",
+  "phonetic": "",
+  "meaning": "……之间的竞争",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "complaint about",
+  "phonetic": "",
+  "meaning": "对……的投诉，抱怨",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "concentration on",
+  "phonetic": "",
+  "meaning": "关注，重视",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "concern about",
+  "phonetic": "",
+  "meaning": "对……的忧虑",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "connection between",
+  "phonetic": "",
+  "meaning": "……之间的联系，关联",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "connection with",
+  "phonetic": "",
+  "meaning": "与……的联系",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "contribution to",
+  "phonetic": "",
+  "meaning": "对……的贡献",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "control over",
+  "phonetic": "",
+  "meaning": "控制",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "conversation with",
+  "phonetic": "",
+  "meaning": "与(某人)的交谈",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "count out",
+  "phonetic": "",
+  "meaning": "逐一地数；不包括",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "count up",
+  "phonetic": "",
+  "meaning": "数……的数目",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "count...in",
+  "phonetic": "",
+  "meaning": "把……算入，包括",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "cure for",
+  "phonetic": "",
+  "meaning": "……的疗法，对策",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "cut across",
+  "phonetic": "",
+  "meaning": "抄近路穿过",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "cut back",
+  "phonetic": "",
+  "meaning": "修剪；削减",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "cut through",
+  "phonetic": "",
+  "meaning": "开辟(出路或通道)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "cut up",
+  "phonetic": "",
+  "meaning": "切碎",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "damage to",
+  "phonetic": "",
+  "meaning": "对……的损坏，损害",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "day after day",
+  "phonetic": "",
+  "meaning": "日复一日",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "day by day",
+  "phonetic": "",
+  "meaning": "一天天，逐日",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "demand for",
+  "phonetic": "",
+  "meaning": "对……的要求，需求",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "departure from",
+  "phonetic": "",
+  "meaning": "从……离开",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "dependence on",
+  "phonetic": "",
+  "meaning": "对……的依赖",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "devotion to",
+  "phonetic": "",
+  "meaning": "对……的奉献",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "die away",
+  "phonetic": "",
+  "meaning": "逐渐减弱，逐渐消失",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "die off",
+  "phonetic": "",
+  "meaning": "相继死去",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "difference between",
+  "phonetic": "",
+  "meaning": "……之间的差异",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "difference/similarity in",
+  "phonetic": "",
+  "meaning": "……上的不同/相似之处",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "discussion about",
+  "phonetic": "",
+  "meaning": "关于……的讨论，商讨",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "distinction between",
+  "phonetic": "",
+  "meaning": "……之间的区别",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "doubt about",
+  "phonetic": "",
+  "meaning": "对……的怀疑",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "draw sb. in",
+  "phonetic": "",
+  "meaning": "使某人卷入，使某人参与",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "drop back/behind",
+  "phonetic": "",
+  "meaning": "后退，落后",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "drop by/in",
+  "phonetic": "",
+  "meaning": "顺便访问，顺便进入",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "effect on",
+  "phonetic": "",
+  "meaning": "对……的影响",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "emphasis/stress on",
+  "phonetic": "",
+  "meaning": "强调",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "encounter with",
+  "phonetic": "",
+  "meaning": "与……的相遇",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "enthusiasm for",
+  "phonetic": "",
+  "meaning": "对……的热情",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "entrance to",
+  "phonetic": "",
+  "meaning": "……的入口，进入权",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "every aspect of",
+  "phonetic": "",
+  "meaning": "……的方方面面",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "excuse for",
+  "phonetic": "",
+  "meaning": "……的理由，借口",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "expert in",
+  "phonetic": "",
+  "meaning": "……专家",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "exposure to",
+  "phonetic": "",
+  "meaning": "遭受，面临",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "failure to do sth",
+  "phonetic": "",
+  "meaning": "未能做某事",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "faith/confidence in",
+  "phonetic": "",
+  "meaning": "对……有信心",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "find fault with",
+  "phonetic": "",
+  "meaning": "挑……的刺，找茬",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "for the moment",
+  "phonetic": "",
+  "meaning": "目前，暂时",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "from bad to worse",
+  "phonetic": "",
+  "meaning": "每况愈下，越来越糟",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "from behind",
+  "phonetic": "",
+  "meaning": "从……后面",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "from now on",
+  "phonetic": "",
+  "meaning": "从现在起",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "from then on",
+  "phonetic": "",
+  "meaning": "从那时起",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "from time to time",
+  "phonetic": "",
+  "meaning": "时不时，偶尔",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "from top to bottom",
+  "phonetic": "",
+  "meaning": "从上到下，彻底地",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "get ahead (of)",
+  "phonetic": "",
+  "meaning": "领先，胜过",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "get along/on",
+  "phonetic": "",
+  "meaning": "对付；进展",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "get along/on with",
+  "phonetic": "",
+  "meaning": "与……和睦相处",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "get away (from)",
+  "phonetic": "",
+  "meaning": "(得以)离开，脱身",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "get away with",
+  "phonetic": "",
+  "meaning": "做(坏事)而未受惩罚",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "get back",
+  "phonetic": "",
+  "meaning": "返回，回家；找回",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "get behind (with)",
+  "phonetic": "",
+  "meaning": "落后，拖延，拖欠",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "get down",
+  "phonetic": "",
+  "meaning": "记下，写下",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "get down to",
+  "phonetic": "",
+  "meaning": "开始做",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "get into",
+  "phonetic": "",
+  "meaning": "习惯于；开始；(使)陷入",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "get out",
+  "phonetic": "",
+  "meaning": "离开；泄露；生产",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "get out of",
+  "phonetic": "",
+  "meaning": "从……出来；逃离；抛弃",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "get somewhere",
+  "phonetic": "",
+  "meaning": "有所进展",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "get up",
+  "phonetic": "",
+  "meaning": "起身；(使)起床",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "give back",
+  "phonetic": "",
+  "meaning": "归还；使恢复",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "glance at",
+  "phonetic": "",
+  "meaning": "匆匆一看，扫视",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "go about",
+  "phonetic": "",
+  "meaning": "开始做，着手做；继续做",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "go along with",
+  "phonetic": "",
+  "meaning": "赞同，和……观点一致",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "go away",
+  "phonetic": "",
+  "meaning": "走开，离开；消失",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "go back (to)",
+  "phonetic": "",
+  "meaning": "回到；追溯到",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "go into",
+  "phonetic": "",
+  "meaning": "详细调查(或研究)；投入",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "go off",
+  "phonetic": "",
+  "meaning": "离开；爆炸；停止运行",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "go on",
+  "phonetic": "",
+  "meaning": "持续；(时间)流逝",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "go on with",
+  "phonetic": "",
+  "meaning": "继续做",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "go out",
+  "phonetic": "",
+  "meaning": "外出交际；熄灭；过时",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "go through with sth.",
+  "phonetic": "",
+  "meaning": "完成艰难(或令人不快)的事",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "go with",
+  "phonetic": "",
+  "meaning": "同意；接受；与……相配",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "gratitude to",
+  "phonetic": "",
+  "meaning": "感激",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "hand down (to)",
+  "phonetic": "",
+  "meaning": "把……传下去(给)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "hand in (to)",
+  "phonetic": "",
+  "meaning": "上交(给)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "hand out (to)",
+  "phonetic": "",
+  "meaning": "分发(给)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "hand over (to)",
+  "phonetic": "",
+  "meaning": "把……移交/正式交出(给)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "have difficulty in doing sth",
+  "phonetic": "",
+  "meaning": "在做某事方面有困难",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "hold down",
+  "phonetic": "",
+  "meaning": "使保持低水平",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "hold in",
+  "phonetic": "",
+  "meaning": "忍住(真实感情)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "hold onto/on to",
+  "phonetic": "",
+  "meaning": "保住(优势)；抓紧",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "hold out",
+  "phonetic": "",
+  "meaning": "坚持；伸出(手或胳膊)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "hold together",
+  "phonetic": "",
+  "meaning": "(使)保持团结",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "hope/wish for",
+  "phonetic": "",
+  "meaning": "希望",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "hunger for",
+  "phonetic": "",
+  "meaning": "对……的渴望，渴求",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "impact on",
+  "phonetic": "",
+  "meaning": "对……的巨大影响",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "impression of",
+  "phonetic": "",
+  "meaning": "对……的印象",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "impression on",
+  "phonetic": "",
+  "meaning": "对……的影响",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in a good/bad mood",
+  "phonetic": "",
+  "meaning": "心情好/不好",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in a good/bad temper",
+  "phonetic": "",
+  "meaning": "心情好/不好",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in a hurry",
+  "phonetic": "",
+  "meaning": "迅速；匆忙",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in a row",
+  "phonetic": "",
+  "meaning": "一排；连续几次地",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in a word",
+  "phonetic": "",
+  "meaning": "简言之，总之",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in a(n)...manner",
+  "phonetic": "",
+  "meaning": "以……方式",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in accordance with",
+  "phonetic": "",
+  "meaning": "依照，依据",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in addition",
+  "phonetic": "",
+  "meaning": "另外，此外",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in agreement",
+  "phonetic": "",
+  "meaning": "(意见或看法)一致",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in agreement with",
+  "phonetic": "",
+  "meaning": "与……意见一致",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in all",
+  "phonetic": "",
+  "meaning": "总共",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in anger",
+  "phonetic": "",
+  "meaning": "气愤地，愤怒地",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in brief/short",
+  "phonetic": "",
+  "meaning": "简言之，总之",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in cash",
+  "phonetic": "",
+  "meaning": "用现金",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in common with",
+  "phonetic": "",
+  "meaning": "与……相同，像……一样",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in connection with",
+  "phonetic": "",
+  "meaning": "与……有关(或相关)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in contact with",
+  "phonetic": "",
+  "meaning": "与……有联系",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in control (of)",
+  "phonetic": "",
+  "meaning": "掌管，控制",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in debt",
+  "phonetic": "",
+  "meaning": "负债",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in despair",
+  "phonetic": "",
+  "meaning": "绝望地",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in dispute",
+  "phonetic": "",
+  "meaning": "在争议之中",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in essence",
+  "phonetic": "",
+  "meaning": "本质上",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in every aspect",
+  "phonetic": "",
+  "meaning": "在各个方面",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in fashion",
+  "phonetic": "",
+  "meaning": "流行",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in favor (of)",
+  "phonetic": "",
+  "meaning": "赞同，支持",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in fear of",
+  "phonetic": "",
+  "meaning": "在对……的恐惧中",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in force",
+  "phonetic": "",
+  "meaning": "(法律、规则等)已生效",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in good condition",
+  "phonetic": "",
+  "meaning": "状况良好",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in good/bad condition",
+  "phonetic": "",
+  "meaning": "处于良好的/糟糕的状态",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in great demand",
+  "phonetic": "",
+  "meaning": "需求量很大",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in large quantities",
+  "phonetic": "",
+  "meaning": "大量地",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in need",
+  "phonetic": "",
+  "meaning": "需要帮助的",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in office",
+  "phonetic": "",
+  "meaning": "任职",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in one's eyes",
+  "phonetic": "",
+  "meaning": "依某人看",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in pain",
+  "phonetic": "",
+  "meaning": "感到疼痛",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in place",
+  "phonetic": "",
+  "meaning": "在正确位置；准备就绪",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in place of",
+  "phonetic": "",
+  "meaning": "代替",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in private",
+  "phonetic": "",
+  "meaning": "私下地",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in progress",
+  "phonetic": "",
+  "meaning": "在进行中",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in pursuit of",
+  "phonetic": "",
+  "meaning": "追求，追寻",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in question",
+  "phonetic": "",
+  "meaning": "讨论(或议论)中的",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in reality",
+  "phonetic": "",
+  "meaning": "实际上，事实上",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in return (for)",
+  "phonetic": "",
+  "meaning": "作为(对……的)回报",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in safety",
+  "phonetic": "",
+  "meaning": "安全地",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in secret",
+  "phonetic": "",
+  "meaning": "秘密地",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in surprise",
+  "phonetic": "",
+  "meaning": "惊讶地",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in terms of",
+  "phonetic": "",
+  "meaning": "就……而言",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in the air",
+  "phonetic": "",
+  "meaning": "在传播中；在空中",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in the form of",
+  "phonetic": "",
+  "meaning": "以……的形式",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in the hope of",
+  "phonetic": "",
+  "meaning": "抱着……的希望",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in the interest(s) of",
+  "phonetic": "",
+  "meaning": "为了，为帮助(或取得)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in the process of",
+  "phonetic": "",
+  "meaning": "在……过程中",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in this respect",
+  "phonetic": "",
+  "meaning": "在这方面",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in trouble",
+  "phonetic": "",
+  "meaning": "处于困境中；惹上麻烦",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "in use",
+  "phonetic": "",
+  "meaning": "在使用中",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "increase/decrease in",
+  "phonetic": "",
+  "meaning": "……的增加/减少",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "independence from",
+  "phonetic": "",
+  "meaning": "独立于",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "indifference to",
+  "phonetic": "",
+  "meaning": "对……漠不关心",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "influence on",
+  "phonetic": "",
+  "meaning": "对……有影响",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "inquiry/enquiry about",
+  "phonetic": "",
+  "meaning": "对……的询问，打听",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "insight into",
+  "phonetic": "",
+  "meaning": "对……的了解",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "intention of",
+  "phonetic": "",
+  "meaning": "打算",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "interest in",
+  "phonetic": "",
+  "meaning": "对……的兴趣",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "introduce A to B",
+  "phonetic": "",
+  "meaning": "把 A 介绍给 B",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "introduction to",
+  "phonetic": "",
+  "meaning": "……的引言；介绍",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "investigation into",
+  "phonetic": "",
+  "meaning": "对……的调查",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "invitation to",
+  "phonetic": "",
+  "meaning": "……的邀请",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "It is no use doing sth",
+  "phonetic": "",
+  "meaning": "做某事没有用",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "keep down",
+  "phonetic": "",
+  "meaning": "蹲下；使保持在低水平",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "keep off",
+  "phonetic": "",
+  "meaning": "使……不接近",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "keep pace with",
+  "phonetic": "",
+  "meaning": "与……并驾齐驱",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "keep...in mind",
+  "phonetic": "",
+  "meaning": "将……记在心中",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "keep...out of...",
+  "phonetic": "",
+  "meaning": "使……置身于……之外",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "keep(...) from",
+  "phonetic": "",
+  "meaning": "阻止；隐瞒",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "key to",
+  "phonetic": "",
+  "meaning": "……的关键",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "knock against/on",
+  "phonetic": "",
+  "meaning": "(常为无意地)碰，撞",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "knock at/on",
+  "phonetic": "",
+  "meaning": "敲，击",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "knock over",
+  "phonetic": "",
+  "meaning": "打倒，击倒，撞倒",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "lack/shortage of",
+  "phonetic": "",
+  "meaning": "缺乏",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "lay emphasis on",
+  "phonetic": "",
+  "meaning": "强调，重视",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "lay off",
+  "phonetic": "",
+  "meaning": "停止使用；解雇；停止",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "leave for",
+  "phonetic": "",
+  "meaning": "动身去",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "leave...behind",
+  "phonetic": "",
+  "meaning": "把……抛在后面",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "lecture on",
+  "phonetic": "",
+  "meaning": "关于……的讲座",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "less/fewer than",
+  "phonetic": "",
+  "meaning": "少于",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "lie down",
+  "phonetic": "",
+  "meaning": "躺下",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "limit to",
+  "phonetic": "",
+  "meaning": "……的限度，限制",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "link between",
+  "phonetic": "",
+  "meaning": "……之间的联系，关系",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "little by little",
+  "phonetic": "",
+  "meaning": "逐渐地",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "look (a)round",
+  "phonetic": "",
+  "meaning": "环顾；参观",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "look back (on)",
+  "phonetic": "",
+  "meaning": "回顾，回忆",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "look like",
+  "phonetic": "",
+  "meaning": "看上去像，似乎，仿佛",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "look on...as...",
+  "phonetic": "",
+  "meaning": "把……看作……",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "loyalty to",
+  "phonetic": "",
+  "meaning": "对……忠诚",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "make a mess of",
+  "phonetic": "",
+  "meaning": "把……弄得一团糟",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "make a mistake",
+  "phonetic": "",
+  "meaning": "犯错误",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "make a response to",
+  "phonetic": "",
+  "meaning": "对……做出回应",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "make a/no difference",
+  "phonetic": "",
+  "meaning": "有/没有作用、影响",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "make an appointment with",
+  "phonetic": "",
+  "meaning": "与……预约",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "make sense of",
+  "phonetic": "",
+  "meaning": "理解，弄懂(不易理解的事物)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "make sure (of)",
+  "phonetic": "",
+  "meaning": "确保；核实",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "make the most of",
+  "phonetic": "",
+  "meaning": "充分利用",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "more than",
+  "phonetic": "",
+  "meaning": "多于；非常；不只是",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "need for",
+  "phonetic": "",
+  "meaning": "需要",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "objection to",
+  "phonetic": "",
+  "meaning": "反对",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "on a date",
+  "phonetic": "",
+  "meaning": "约会",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "on a diet",
+  "phonetic": "",
+  "meaning": "节食",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "on a trip",
+  "phonetic": "",
+  "meaning": "旅行",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "on display/show",
+  "phonetic": "",
+  "meaning": "展出，陈列",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "on fire",
+  "phonetic": "",
+  "meaning": "着火，失火",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "on foot",
+  "phonetic": "",
+  "meaning": "步行",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "on holiday/vacation",
+  "phonetic": "",
+  "meaning": "度假",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "on leave",
+  "phonetic": "",
+  "meaning": "休假",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "on occasion(s)",
+  "phonetic": "",
+  "meaning": "有时，偶尔",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "on one's own",
+  "phonetic": "",
+  "meaning": "独自，单独；独立地",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "on purpose",
+  "phonetic": "",
+  "meaning": "故意，有意地",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "on stage",
+  "phonetic": "",
+  "meaning": "在舞台上",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "on the decline/increase",
+  "phonetic": "",
+  "meaning": "在下降/增长",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "on the one hand",
+  "phonetic": "",
+  "meaning": "一方面",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "on the point of",
+  "phonetic": "",
+  "meaning": "正要……之际",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "on the weekend",
+  "phonetic": "",
+  "meaning": "在周末",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "on the/one's way",
+  "phonetic": "",
+  "meaning": "在路上",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "on weekdays",
+  "phonetic": "",
+  "meaning": "在工作日",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "one after another",
+  "phonetic": "",
+  "meaning": "一个接一个地",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "one of the",
+  "phonetic": "",
+  "meaning": "……之一",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "operation on",
+  "phonetic": "",
+  "meaning": "给……做手术",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "opinion about",
+  "phonetic": "",
+  "meaning": "对……的看法",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "out of fashion/style",
+  "phonetic": "",
+  "meaning": "过时",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "out of patience",
+  "phonetic": "",
+  "meaning": "不耐烦",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "out of pity",
+  "phonetic": "",
+  "meaning": "出于同情",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "out of season",
+  "phonetic": "",
+  "meaning": "(水果、蔬菜)不合时令的",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "out of shape",
+  "phonetic": "",
+  "meaning": "变形的，走样的",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "passion for",
+  "phonetic": "",
+  "meaning": "酷爱",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "pay attention to",
+  "phonetic": "",
+  "meaning": "注意，重视",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "pity for",
+  "phonetic": "",
+  "meaning": "同情",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "pleasure of",
+  "phonetic": "",
+  "meaning": "……的乐趣",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "power over",
+  "phonetic": "",
+  "meaning": "对……的控制；主宰",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "preference for",
+  "phonetic": "",
+  "meaning": "偏爱",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "preparation for",
+  "phonetic": "",
+  "meaning": "准备",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "proficiency in",
+  "phonetic": "",
+  "meaning": "精通",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "progress/advance in",
+  "phonetic": "",
+  "meaning": "……的进展",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "protection from",
+  "phonetic": "",
+  "meaning": "免受",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "pull down",
+  "phonetic": "",
+  "meaning": "拆毁",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "pull off",
+  "phonetic": "",
+  "meaning": "做成，完成",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "pull through",
+  "phonetic": "",
+  "meaning": "康复，做成(十分困难的事)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "pull together",
+  "phonetic": "",
+  "meaning": "齐心协力",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "pull up",
+  "phonetic": "",
+  "meaning": "(车辆或司机)停车",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "put across/over",
+  "phonetic": "",
+  "meaning": "交流，沟通(感情等)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "put aside",
+  "phonetic": "",
+  "meaning": "储存；不理睬，忽视",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "put away",
+  "phonetic": "",
+  "meaning": "将……收起；积蓄，攒钱",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "put back",
+  "phonetic": "",
+  "meaning": "将……放回",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "put down",
+  "phonetic": "",
+  "meaning": "记下，写下；放下；镇压",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "put forward",
+  "phonetic": "",
+  "meaning": "提出；将……提前；向前拨",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "put in",
+  "phonetic": "",
+  "meaning": "安装；花费；插话；投入",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "put off",
+  "phonetic": "",
+  "meaning": "推迟；让……下车",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "put on",
+  "phonetic": "",
+  "meaning": "穿上；上演；增加体重",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "put out",
+  "phonetic": "",
+  "meaning": "熄灭；清理掉；出版",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "put through",
+  "phonetic": "",
+  "meaning": "完成；给……接通(电话)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "put together",
+  "phonetic": "",
+  "meaning": "组装，组织",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "put up",
+  "phonetic": "",
+  "meaning": "提高；建造；张贴",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "put...into effect",
+  "phonetic": "",
+  "meaning": "实行，使生效，实施",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "put...to good use",
+  "phonetic": "",
+  "meaning": "有效使用(或利用)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "quarrel over",
+  "phonetic": "",
+  "meaning": "关于……的争端",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "reach an agreement",
+  "phonetic": "",
+  "meaning": "达成协议",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "reaction to",
+  "phonetic": "",
+  "meaning": "对……的反应",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "reason for",
+  "phonetic": "",
+  "meaning": "……的原因，理由",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "reference to",
+  "phonetic": "",
+  "meaning": "提到，涉及",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "reply to",
+  "phonetic": "",
+  "meaning": "对……的回答，答复",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "reputation for",
+  "phonetic": "",
+  "meaning": "……的名声",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "request for",
+  "phonetic": "",
+  "meaning": "要求，请求",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "research into",
+  "phonetic": "",
+  "meaning": "对……的研究，调查",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "respond to",
+  "phonetic": "",
+  "meaning": "回应",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "response to",
+  "phonetic": "",
+  "meaning": "对……的反应，答复",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "responsibility for",
+  "phonetic": "",
+  "meaning": "对……负责",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "run across",
+  "phonetic": "",
+  "meaning": "偶然遇见(或看到)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "run away",
+  "phonetic": "",
+  "meaning": "突然离开，逃离",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "run out (of)",
+  "phonetic": "",
+  "meaning": "用完，耗尽(供应品)",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "satisfaction with",
+  "phonetic": "",
+  "meaning": "满意",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "search for",
+  "phonetic": "",
+  "meaning": "搜寻",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "set...free",
+  "phonetic": "",
+  "meaning": "使……自由",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "show signs of",
+  "phonetic": "",
+  "meaning": "显示出……的迹象",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "solution to",
+  "phonetic": "",
+  "meaning": "……的解决办法",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "speak with a local accent",
+  "phonetic": "",
+  "meaning": "带着当地口音说话",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "step by step",
+  "phonetic": "",
+  "meaning": "一步一步地",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "strong tea",
+  "phonetic": "",
+  "meaning": "浓茶",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "substitute for",
+  "phonetic": "",
+  "meaning": "……的代替者",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "success in",
+  "phonetic": "",
+  "meaning": "在……方面的成功",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "sympathy for",
+  "phonetic": "",
+  "meaning": "同情",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "take advantage of",
+  "phonetic": "",
+  "meaning": "利用（机会、条件）",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "take back",
+  "phonetic": "",
+  "meaning": "收回；与……重归于好",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "take care of",
+  "phonetic": "",
+  "meaning": "照顾",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "take exercise",
+  "phonetic": "",
+  "meaning": "锻炼",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "take it for granted that",
+  "phonetic": "",
+  "meaning": "想当然地认为",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "take notice of",
+  "phonetic": "",
+  "meaning": "注意到",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "take out",
+  "phonetic": "",
+  "meaning": "带(某人)出去；切除",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "take...as...",
+  "phonetic": "",
+  "meaning": "把……看作……",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "talent for",
+  "phonetic": "",
+  "meaning": "有……天赋",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "taste for",
+  "phonetic": "",
+  "meaning": "……的爱好，兴趣",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "the sight of",
+  "phonetic": "",
+  "meaning": "一看到……（的情景）",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "There is no point in doing sth",
+  "phonetic": "",
+  "meaning": "做某事没有意义",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "ticket to",
+  "phonetic": "",
+  "meaning": "……的入场券",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "tips on doing sth",
+  "phonetic": "",
+  "meaning": "关于做某事的窍门",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "to one's advantage",
+  "phonetic": "",
+  "meaning": "对某人有利",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "to one's benefit",
+  "phonetic": "",
+  "meaning": "对某人有利",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "to one's delight/joy",
+  "phonetic": "",
+  "meaning": "令某人高兴的是",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "to one's disappointment",
+  "phonetic": "",
+  "meaning": "令某人失望的是",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "to one's regret",
+  "phonetic": "",
+  "meaning": "令某人后悔的是",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "to one's relief",
+  "phonetic": "",
+  "meaning": "令某人庆幸的是",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "to one's satisfaction",
+  "phonetic": "",
+  "meaning": "令某人满意的是",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "to one's shame",
+  "phonetic": "",
+  "meaning": "令某人惭愧的是",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "to one's surprise",
+  "phonetic": "",
+  "meaning": "令某人吃惊的是",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "to the contrary",
+  "phonetic": "",
+  "meaning": "相反的；相反地",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "to...extent/degree",
+  "phonetic": "",
+  "meaning": "在……程度上",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "turn around",
+  "phonetic": "",
+  "meaning": "(使)翻身；扭转",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "turn sb. away (from)",
+  "phonetic": "",
+  "meaning": "不准某人进入",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "turn to",
+  "phonetic": "",
+  "meaning": "向……求助",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "turn(...) into",
+  "phonetic": "",
+  "meaning": "使(……)变成",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "under consideration",
+  "phonetic": "",
+  "meaning": "在审议中，在讨论中",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "under construction",
+  "phonetic": "",
+  "meaning": "在建设中",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "under development",
+  "phonetic": "",
+  "meaning": "在发展中，在开发中",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "under discussion",
+  "phonetic": "",
+  "meaning": "在讨论中",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "under investigation",
+  "phonetic": "",
+  "meaning": "接受调查；在调查中",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "under no circumstances",
+  "phonetic": "",
+  "meaning": "绝不，无论如何不",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "under repair",
+  "phonetic": "",
+  "meaning": "在修理中",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "under stress/pressure",
+  "phonetic": "",
+  "meaning": "在压力下",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "visit to",
+  "phonetic": "",
+  "meaning": "拜访，看望",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "way of",
+  "phonetic": "",
+  "meaning": "……的方式",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "with regard/respect to",
+  "phonetic": "",
+  "meaning": "关于",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "with the help of",
+  "phonetic": "",
+  "meaning": "在……的帮助下",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "work as",
+  "phonetic": "",
+  "meaning": "从事……工作",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "work for",
+  "phonetic": "",
+  "meaning": "受雇于；力争",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "work on",
+  "phonetic": "",
+  "meaning": "努力改善；努力说服",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "work to",
+  "phonetic": "",
+  "meaning": "根据……行事",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "year after year",
+  "phonetic": "",
+  "meaning": "年年，每年",
+  "page": null,
+  "sort": 0
+ },
+ {
+  "word": "year by year",
+  "phonetic": "",
+  "meaning": "每年，年复一年",
+  "page": null,
+  "sort": 0
+ }
+]

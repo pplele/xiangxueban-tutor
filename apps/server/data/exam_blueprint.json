@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "title": "湖南专升本高等数学模拟卷",
+    "total_score": 150,
+    "minutes": 120,
+    "question_count": 22,
+    "sources": {
+      "official": "湖南省教育考试院 2026 年专升本公告：统考公共科目每门满分 150 分，高等数学考试时长 120 分钟。https://m.hnedutv.com/content/15844050",
+      "structure": "新东方对 2026 湖南专升本高数真题的拆解：单选 12 题×5 分、填空 4 题×4 分、计算 6 题合计 74 分。属二手资料，分值合计与 150 分吻合，可用于组卷，正式使用前建议对照真题核对。"
+    },
+    "editable": "改这里就能改卷型：sections 各段 points×count 之和必须等于 total_score；modules 各模块的 choice/blank/solve 题数与 sections 的 count 必须一致。",
+    "version": 1
+  },
+  "sections": [
+    { "key": "choice", "name": "一、选择题", "type": "选择题", "count": 12, "points": 5 },
+    { "key": "blank", "name": "二、填空题", "type": "填空题", "count": 4, "points": 4 },
+    { "key": "solve", "name": "三、计算题", "type": "计算题", "count": 6, "points": [12, 12, 12, 12, 13, 13] }
+  ],
+  "modules": [
+    { "name": "函数、极限与连续", "chapters": ["函数与极限"], "choice": 4, "blank": 1, "solve": 1, "score": 36 },
+    { "name": "一元函数微分学", "chapters": ["导数与微分", "微分中值定理与导数的应用"], "choice": 3, "blank": 2, "solve": 1, "score": 35 },
+    { "name": "一元函数积分学", "chapters": ["不定积分", "定积分及其应用"], "choice": 1, "blank": 0, "solve": 2, "score": 31 },
+    { "name": "多元函数微积分学", "chapters": ["多元函数微分法及其应用", "重积分"], "choice": 1, "blank": 0, "solve": 1, "score": 17 },
+    { "name": "向量代数与空间解析几何", "chapters": ["向量代数与空间解析几何"], "choice": 0, "blank": 1, "solve": 1, "score": 16 },
+    { "name": "无穷级数", "chapters": ["无穷级数"], "choice": 2, "blank": 0, "solve": 0, "score": 10 },
+    { "name": "常微分方程", "chapters": ["微分方程"], "choice": 1, "blank": 0, "solve": 0, "score": 5 }
+  ],
+  "grading": {
+    "选择题": "选对得满分；选错或未答 0 分。",
+    "填空题": "答案与标准答案数学等价即满分；缺条件（如 k∈Z、区间端点开闭）扣一半。",
+    "计算题": "按步骤给分：关键步骤（换元、求导、积分、代入）各占分值；最终答案正确但缺关键说明扣 1–2 分；答案错但方法正确按步骤给分。",
+    "证明题": "按逻辑链给分：已知条件转化、定理使用条件验证、结论推导三段；跳步按缺失要点扣分。",
+    "AI 评卷要求": "逐题给出得分、扣分理由（引用学生原文片段）、以及一条针对性建议；不得只给总分。"
+  }
+}

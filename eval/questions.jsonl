@@ -1,0 +1,149 @@
+{"id":"M001","subject":"math","query":"数列发散的判断方法是什么？sin n 为什么发散？","kind":"fact","expected_kp":["1.5","1.7"],"expected_source":"01-函数与极限","reference":"数列发散常见于振荡发散（如 sin n）、趋于无穷、奇偶子列极限不同。sin n 在 [-1,1] 振荡，不趋于确定常数，因此极限不存在。"}
+{"id":"M002","subject":"math","query":"若 lim f(x)=A，函数在该点一定有定义且等于 A 吗？","kind":"fact","expected_kp":["1.5"],"expected_source":"01-函数与极限","reference":"不一定。极限只与去心邻域有关，与函数在该点是否有定义、取值多少无关。"}
+{"id":"M003","subject":"math","query":"函数极限存在的充分必要条件是什么？","kind":"fact","expected_kp":["1.5","1.9"],"expected_source":"01-函数与极限","reference":"左极限与右极限都存在且相等。"}
+{"id":"M004","subject":"math","query":"lim x sin(1/x) 当 x 趋于无穷时等于多少？","kind":"fact","expected_kp":["1.6"],"expected_source":"01-函数与极限","reference":"极限为 1。把 x sin(1/x) 写成 sin(1/x)/(1/x)，用重要极限 sin t/t→1。"}
+{"id":"M005","subject":"math","query":"第二个重要极限是什么？如何推广？","kind":"fact","expected_kp":["1.6"],"expected_source":"01-函数与极限","reference":"lim(1+1/x)^x=e（x→∞），推广为 lim(1+□)^(1/□)=e（□→0）。"}
+{"id":"M006","subject":"math","query":"等价无穷小替换在加减法中可以直接用吗？","kind":"fact","expected_kp":["1.8"],"expected_source":"01-函数与极限","reference":"等价替换只能用于乘除因子；加减中直接替换可能抵消主部导致错误，应先提取公因子或变形。"}
+{"id":"M007","subject":"math","query":"求 f(x)=arccos(x-4) 的定义域","kind":"fact","expected_kp":["1.1"],"expected_source":"01-函数与极限","reference":"arccos u 要求 u∈[-1,1]，故 -1≤x-4≤1，解得 3≤x≤5，定义域为 [3,5]。"}
+{"id":"M008","subject":"math","query":"函数在一点连续的定义是什么？","kind":"fact","expected_kp":["1.9"],"expected_source":"01-函数与极限","reference":"lim f(x)=f(x0)（x→x0），即左右极限存在且等于函数值。"}
+{"id":"M009","subject":"math","query":"可去间断点和跳跃间断点怎么区分？","kind":"fact","expected_kp":["1.9"],"expected_source":"01-函数与极限","reference":"都属于第一类间断点；左右极限相等但不等于函数值（或无定义）是可去间断点，左右极限不等是跳跃间断点。"}
+{"id":"M010","subject":"math","query":"如何用零点定理证明方程有根？","kind":"fact","expected_kp":["1.10"],"expected_source":"01-函数与极限","reference":"构造连续辅助函数 F，验证区间端点异号，由零点定理得存在 ξ 使 F(ξ)=0。"}
+{"id":"M011","subject":"math","query":"夹逼准则的适用场景和注意事项","kind":"fact","expected_kp":["1.7"],"expected_source":"01-函数与极限","reference":"用于 n 项和或含振荡因子的极限；需构造上下界且两端极限相同。放缩时项数与系数都要保留。"}
+{"id":"M012","subject":"math","query":"用导数定义求 f(x) 在 x0 处的导数","kind":"fact","expected_kp":["2.1"],"expected_source":"02-导数与微分","reference":"f'(x0)=lim [f(x0+Δx)-f(x0)]/Δx（Δx→0），先写增量比再取极限。"}
+{"id":"M013","subject":"math","query":"曲线在一点的切线方程怎么求？","kind":"fact","expected_kp":["2.2"],"expected_source":"02-导数与微分","reference":"先求该点导数作为斜率 k=f'(x0)，切线方程为 y-f(x0)=f'(x0)(x-x0)。"}
+{"id":"M014","subject":"math","query":"函数可导一定连续吗？连续一定可导吗？","kind":"fact","expected_kp":["2.3"],"expected_source":"02-导数与微分","reference":"可导必连续，连续不一定可导。反例 f(x)=|x| 在 x=0 连续但左右导数不等。"}
+{"id":"M015","subject":"math","query":"复合函数求导法则是什么？","kind":"fact","expected_kp":["2.4"],"expected_source":"02-导数与微分","reference":"链式法则 dy/dx=f'(u)g'(x)，由外向内逐层求导并相乘。"}
+{"id":"M016","subject":"math","query":"隐函数求导的步骤","kind":"fact","expected_kp":["2.5"],"expected_source":"02-导数与微分","reference":"方程两边对 x 求导，遇到 y 时乘 y'，再解出 y'。"}
+{"id":"M017","subject":"math","query":"x 的 x 次方怎么求导？","kind":"fact","expected_kp":["2.6"],"expected_source":"02-导数与微分","reference":"用对数求导法：取对数得 ln y=x ln x，求导得 y'/y=ln x+1，故 y'=x^x(ln x+1)。"}
+{"id":"M018","subject":"math","query":"参数方程确定的函数如何求二阶导数？","kind":"fact","expected_kp":["2.7"],"expected_source":"02-导数与微分","reference":"dy/dx=ψ'(t)/φ'(t)，二阶导数等于 dy/dx 对 t 求导后再除以 φ'(t)。"}
+{"id":"M019","subject":"math","query":"sin x 的 n 阶导数是什么？","kind":"fact","expected_kp":["2.8"],"expected_source":"02-导数与微分","reference":"(sin x)^(n)=sin(x+nπ/2)。"}
+{"id":"M020","subject":"math","query":"微分与导数的关系是什么？","kind":"fact","expected_kp":["2.9"],"expected_source":"02-导数与微分","reference":"dy=f'(x)dx，微分是函数增量的线性主部；一元函数可导与可微等价。"}
+{"id":"M021","subject":"math","query":"罗尔定理的三个条件是什么？","kind":"fact","expected_kp":["3.1"],"expected_source":"03-微分中值定理与导数应用","reference":"闭区间连续、开区间可导、端点函数值相等 f(a)=f(b)，则存在 ξ 使 f'(ξ)=0。"}
+{"id":"M022","subject":"math","query":"拉格朗日中值定理的内容","kind":"fact","expected_kp":["3.2"],"expected_source":"03-微分中值定理与导数应用","reference":"f 在 [a,b] 连续、(a,b) 可导，则存在 ξ∈(a,b) 使 f(b)-f(a)=f'(ξ)(b-a)。"}
+{"id":"M023","subject":"math","query":"洛必达法则的使用条件是什么？","kind":"fact","expected_kp":["3.3"],"expected_source":"03-微分中值定理与导数应用","reference":"必须是 0/0 或 ∞/∞ 型；分子分母可导、分母导数不为零，且导数之比的极限存在或为无穷。"}
+{"id":"M024","subject":"math","query":"洛必达法则失效时怎么办？","kind":"fact","expected_kp":["3.3"],"expected_source":"03-微分中值定理与导数应用","reference":"若导数之比极限不存在，不能判定原极限不存在；应改用等价无穷小、泰勒或其他代数变形。"}
+{"id":"M025","subject":"math","query":"如何用导数判断函数单调性？","kind":"fact","expected_kp":["3.4"],"expected_source":"03-微分中值定理与导数应用","reference":"在区间内 f'(x)>0 单调递增，f'(x)<0 单调递减；先求驻点和不可导点再分区间判断符号。"}
+{"id":"M026","subject":"math","query":"极值点和驻点是一回事吗？","kind":"fact","expected_kp":["3.5"],"expected_source":"03-微分中值定理与导数应用","reference":"不是。驻点是 f'=0 的点，可能是极值也可能不是；极值点还可能是不可导点。需判断导数两侧符号。"}
+{"id":"M027","subject":"math","query":"拐点的判定条件","kind":"fact","expected_kp":["3.6"],"expected_source":"03-微分中值定理与导数应用","reference":"f''=0 或不存在，且 f'' 在两侧变号，才是拐点；仅 f''=0 不够。"}
+{"id":"M028","subject":"math","query":"垂直渐近线怎么找？","kind":"fact","expected_kp":["3.7"],"expected_source":"03-微分中值定理与导数应用","reference":"找使函数趋于无穷的点 x0，通常是分母零点或对数真数为零处；若单侧极限为无穷，则 x=x0 是垂直渐近线。"}
+{"id":"M029","subject":"math","query":"用单调性证明不等式的步骤","kind":"fact","expected_kp":["3.4"],"expected_source":"03-微分中值定理与导数应用","reference":"移项构造 F=左-右，求 F' 判断单调性，结合端点值证明 F≥0。"}
+{"id":"M030","subject":"math","query":"原函数与不定积分的关系","kind":"fact","expected_kp":["4.1"],"expected_source":"04-不定积分","reference":"若 F'=f，则 F 是 f 的一个原函数；不定积分是全体原函数 F(x)+C。连续函数必有原函数。"}
+{"id":"M031","subject":"math","query":"不定积分为什么要加 C？","kind":"fact","expected_kp":["4.2"],"expected_source":"04-不定积分","reference":"同一函数的任意两个原函数相差常数；不定积分表示全体原函数，因此必须写 +C。"}
+{"id":"M032","subject":"math","query":"第一类换元法（凑微分）怎么做？","kind":"fact","expected_kp":["4.3"],"expected_source":"04-不定积分","reference":"把积分凑成 ∫f(φ(x))φ'(x)dx 后令 u=φ(x)，化为 ∫f(u)du；注意系数如 x dx=1/2 d(x²)。"}
+{"id":"M033","subject":"math","query":"三角代换适用于哪些积分？","kind":"fact","expected_kp":["4.4"],"expected_source":"04-不定积分","reference":"含 √(a²-x²) 令 x=a sin t；含 √(a²+x²) 令 x=a tan t；含 √(x²-a²) 令 x=a sec t。"}
+{"id":"M034","subject":"math","query":"分部积分法如何选择 u？","kind":"fact","expected_kp":["4.5"],"expected_source":"04-不定积分","reference":"口诀「反对幂指三」，反三角、对数、幂函数、指数、三角依次优先取作 u。"}
+{"id":"M035","subject":"math","query":"定积分的几何意义是什么？","kind":"fact","expected_kp":["5.1"],"expected_source":"05-定积分及其应用","reference":"表示曲边梯形面积的代数和，x 轴上方为正、下方为负。"}
+{"id":"M036","subject":"math","query":"牛顿-莱布尼茨公式的内容","kind":"fact","expected_kp":["5.4"],"expected_source":"05-定积分及其应用","reference":"若 F'=f，则 ∫a^b f(x)dx=F(b)-F(a)。"}
+{"id":"M037","subject":"math","query":"变上限积分如何求导？","kind":"fact","expected_kp":["5.3"],"expected_source":"05-定积分及其应用","reference":"Φ(x)=∫a^x f(t)dt 的导数为 f(x)；若上限为 φ(x)，还要乘 φ'(x)。"}
+{"id":"M038","subject":"math","query":"定积分换元时上下限要不要变？","kind":"fact","expected_kp":["5.5"],"expected_source":"05-定积分及其应用","reference":"要变。换元同时把上下限换成新变量的对应值，且无需再换回原变量。"}
+{"id":"M039","subject":"math","query":"如何用定积分求平面图形面积？","kind":"fact","expected_kp":["5.6"],"expected_source":"05-定积分及其应用","reference":"面积 S=∫a^b |f(x)-g(x)|dx，先求交点确定区间，再判断上下位置去掉绝对值。"}
+{"id":"M040","subject":"math","query":"旋转体体积公式","kind":"fact","expected_kp":["5.7"],"expected_source":"05-定积分及其应用","reference":"绕 x 轴旋转：V=π∫a^b f²(x)dx；绕 y 轴可用柱壳法 V=2π∫x|f(x)|dx。"}
+{"id":"M041","subject":"math","query":"两向量垂直的充要条件","kind":"fact","expected_kp":["7.4"],"expected_source":"07-向量代数与空间解析几何","reference":"数量积为零，即 a·b=0。"}
+{"id":"M042","subject":"math","query":"向量积的几何意义是什么？","kind":"fact","expected_kp":["7.3"],"expected_source":"07-向量代数与空间解析几何","reference":"a×b 的模等于以 a、b 为邻边的平行四边形面积；两向量平行时叉积为零向量。"}
+{"id":"M043","subject":"math","query":"平面的点法式方程怎么写？","kind":"fact","expected_kp":["7.5"],"expected_source":"07-向量代数与空间解析几何","reference":"已知点 M0(x0,y0,z0) 和法向量 (A,B,C)，方程为 A(x-x0)+B(y-y0)+C(z-z0)=0。"}
+{"id":"M044","subject":"math","query":"直线与平面垂直的条件","kind":"fact","expected_kp":["7.6"],"expected_source":"07-向量代数与空间解析几何","reference":"直线的方向向量与平面的法向量平行。"}
+{"id":"M045","subject":"math","query":"点到平面的距离公式","kind":"fact","expected_kp":["7.5"],"expected_source":"07-向量代数与空间解析几何","reference":"d=|Ax0+By0+Cz0+D|/√(A²+B²+C²)。"}
+{"id":"M046","subject":"math","query":"偏导数和全微分有什么区别？","kind":"fact","expected_kp":["8.3"],"expected_source":"08-多元函数微分法及其应用","reference":"偏导数是固定其他变量对某一变量求导；全微分 dz=z_x dx+z_y dy，是可微时的线性主部。"}
+{"id":"M047","subject":"math","query":"二阶混合偏导数一定相等吗？","kind":"fact","expected_kp":["8.3"],"expected_source":"08-多元函数微分法及其应用","reference":"若二阶混合偏导数连续，则相等；否则不一定。"}
+{"id":"M048","subject":"math","query":"多元函数可微的充分条件","kind":"fact","expected_kp":["8.3"],"expected_source":"08-多元函数微分法及其应用","reference":"偏导数存在是可微的必要条件；偏导数连续是可微的充分条件。"}
+{"id":"M049","subject":"math","query":"多元复合函数链式法则怎么用？","kind":"fact","expected_kp":["8.4"],"expected_source":"08-多元函数微分法及其应用","reference":"画变量依赖树，z 到 x 有几条路径就有几项，每项为路径上偏导数相乘再相加。"}
+{"id":"M050","subject":"math","query":"二元函数极限不存在的判断方法","kind":"fact","expected_kp":["8.2"],"expected_source":"08-多元函数微分法及其应用","reference":"若沿两条不同路径趋近得到不同极限，或沿某路径极限不存在，则二重极限不存在。常用路径 y=kx、y=x²。"}
+{"id":"M051","subject":"math","query":"二重积分在直角坐标系下如何化为累次积分？","kind":"fact","expected_kp":["9.2"],"expected_source":"09-重积分","reference":"X 型区域先对 y 后对 x 积分，Y 型区域先对 x 后对 y，上下限由区域边界确定。"}
+{"id":"M052","subject":"math","query":"极坐标计算二重积分要注意什么？","kind":"fact","expected_kp":["9.2"],"expected_source":"09-重积分","reference":"令 x=r cosθ、y=r sinθ，面积元 dσ=r dr dθ，不要漏乘 r。"}
+{"id":"M053","subject":"math","query":"交换积分次序的步骤","kind":"fact","expected_kp":["9.2"],"expected_source":"09-重积分","reference":"先根据原上下限画出积分区域，再按另一方向重新确定内外层上下限。"}
+{"id":"M054","subject":"math","query":"级数收敛的必要条件是什么？反过来成立吗？","kind":"fact","expected_kp":["10.1"],"expected_source":"10-无穷级数","reference":"收敛则通项趋于 0；反之不成立，调和级数就是反例。"}
+{"id":"M055","subject":"math","query":"p 级数什么时候收敛？","kind":"fact","expected_kp":["10.2"],"expected_source":"10-无穷级数","reference":"∑1/n^p 在 p>1 时收敛，p≤1 时发散；p=1 为调和级数，发散。"}
+{"id":"M056","subject":"math","query":"等比级数的收敛条件与和","kind":"fact","expected_kp":["10.2"],"expected_source":"10-无穷级数","reference":"∑aq^n 在 |q|<1 时收敛，和为 a/(1-q)；|q|≥1 时发散。"}
+{"id":"M057","subject":"math","query":"比值判别法怎么用？","kind":"fact","expected_kp":["10.3"],"expected_source":"10-无穷级数","reference":"设 lim u_{n+1}/u_n=ρ，ρ<1 收敛，ρ>1 发散，ρ=1 失效。"}
+{"id":"M058","subject":"math","query":"交错级数的莱布尼茨判别法","kind":"fact","expected_kp":["10.4","10.5"],"expected_source":"10-无穷级数","reference":"u_n 单调递减且趋于 0，则交错级数收敛；若加绝对值后收敛则为绝对收敛，否则条件收敛。"}
+{"id":"M059","subject":"math","query":"幂级数的收敛半径怎么求？","kind":"fact","expected_kp":["10.6"],"expected_source":"10-无穷级数","reference":"R=lim|a_n/a_{n+1}|；端点需单独代入判断收敛性。"}
+{"id":"M060","subject":"math","query":"一阶线性微分方程的通解公式","kind":"fact","expected_kp":["6.3"],"expected_source":"06-微分方程","reference":"y'+P(x)y=Q(x) 的通解为 y=e^{-∫Pdx}(∫Q e^{∫Pdx}dx+C)。"}
+{"id":"M061","subject":"math","query":"二阶常系数齐次线性微分方程如何根据特征根写通解？","kind":"fact","expected_kp":["6.4"],"expected_source":"06-微分方程","reference":"相异实根 C1e^{r1x}+C2e^{r2x}；相等实根 (C1+C2x)e^{rx}；共轭复根 e^{αx}(C1cosβx+C2sinβx)。"}
+{"id":"M062","subject":"math","query":"可分离变量微分方程怎么解？","kind":"fact","expected_kp":["6.2"],"expected_source":"06-微分方程","reference":"写成 dy/g(y)=f(x)dx 后两边积分；注意 g(y)=0 可能对应丢失的常数解。"}
+{"id":"M063","subject":"math","query":"微分方程的通解和特解有什么区别？","kind":"fact","expected_kp":["6.1"],"expected_source":"06-微分方程","reference":"通解含与阶数相同个数的任意常数；由初始条件确定常数后得到特解。"}
+{"id":"M064","subject":"math","query":"用泰勒展开到高阶项求极限的方法","kind":"out_of_scope","expected_kp":[],"expected_source":"","reference":"该内容超出湖南专升本高等数学考纲，应明确提示超纲，可作为拓展了解。"}
+{"id":"M065","subject":"math","query":"傅里叶级数的收敛定理","kind":"out_of_scope","expected_kp":[],"expected_source":"","reference":"傅里叶级数超出湖南专升本考纲，应提示超出考纲。"}
+{"id":"M066","subject":"math","query":"实变函数中的勒贝格积分怎么定义？","kind":"out_of_scope","expected_kp":[],"expected_source":"","reference":"实变函数与勒贝格积分远超专升本考纲，应明确提示超出考纲。"}
+{"id":"M067","subject":"math","query":"考研数学一的级数压轴题怎么做？","kind":"out_of_scope","expected_kp":[],"expected_source":"","reference":"考研专属内容超出湖南专升本考纲，应提示超出考纲。"}
+{"id":"M068","subject":"math","query":"用柯西不等式证明竞赛题","kind":"out_of_scope","expected_kp":[],"expected_source":"","reference":"竞赛技巧超出专升本考纲，应提示超纲，可标注拓展。"}
+{"id":"M069","subject":"math","query":"复变函数中的留数定理怎么用？","kind":"out_of_scope","expected_kp":[],"expected_source":"","reference":"复变函数与留数定理超纲，应明确提示超出湖南专升本考纲。"}
+{"id":"M070","subject":"math","query":"定积分应用中如何求旋转曲面的侧面积？","kind":"out_of_scope","expected_kp":[],"expected_source":"","reference":"旋转曲面侧面积不在湖南专升本高等数学考纲内，应提示超纲。"}
+{"id":"E001","subject":"english","query":"现在完成时和一般过去时怎么区分？","kind":"fact","expected_kp":["E1.5"],"expected_source":"02-第一章-词法","reference":"现在完成时强调过去动作对现在的影响或持续到现在；有明确过去时间状语时用一般过去时。"}
+{"id":"E002","subject":"english","query":"since 和 for 在现在完成时中的区别","kind":"fact","expected_kp":["E1.5"],"expected_source":"02-第一章-词法","reference":"since 后接时间点，for 后接时间段；短暂动词不能与表示延续的 for/since 连用。"}
+{"id":"E003","subject":"english","query":"被动语态怎么构成？不及物动词有被动吗？","kind":"fact","expected_kp":["E1.6"],"expected_source":"02-第一章-词法","reference":"be + 过去分词，时态由 be 体现；不及物动词没有被动语态。"}
+{"id":"E004","subject":"english","query":"非谓语动词作状语时逻辑主语要注意什么？","kind":"fact","expected_kp":["E1.7"],"expected_source":["03-第二章-句法上","04-第二章-句法下"],"reference":"非谓语的逻辑主语应与主句主语一致；现在分词表主动，过去分词表被动。"}
+{"id":"E005","subject":"english","query":"look forward to 后面接什么形式？","kind":"fact","expected_kp":["E1.7"],"expected_source":["03-第二章-句法上","04-第二章-句法下"],"reference":"to 是介词，后接名词或动名词 doing。"}
+{"id":"E006","subject":"english","query":"主谓一致中的就近原则怎么用？","kind":"fact","expected_kp":["E1.8"],"expected_source":["03-第二章-句法上","04-第二章-句法下"],"reference":"either...or、neither...nor、not only...but also 连接主语时，谓语与最近的主语一致。"}
+{"id":"E007","subject":"english","query":"the number of 和 a number of 后面谓语用单数还是复数？","kind":"fact","expected_kp":["E1.8"],"expected_source":["03-第二章-句法上","04-第二章-句法下"],"reference":"the number of + 复数名词用单数；a number of + 复数名词用复数。"}
+{"id":"E008","subject":"english","query":"定语从句什么时候只能用 that？","kind":"fact","expected_kp":["E1.9"],"expected_source":["03-第二章-句法上","04-第二章-句法下"],"reference":"先行词为 all、everything、nothing、much 等不定代词，或被序数词、最高级修饰，或既有人又有物时只用 that。"}
+{"id":"E009","subject":"english","query":"非限制性定语从句能用 that 吗？","kind":"fact","expected_kp":["E1.9"],"expected_source":["03-第二章-句法上","04-第二章-句法下"],"reference":"不能，非限制性定语从句用 which/who/whom/whose。"}
+{"id":"E010","subject":"english","query":"whether 和 if 都可以引导宾语从句吗？","kind":"fact","expected_kp":["E1.10"],"expected_source":["03-第二章-句法上","04-第二章-句法下"],"reference":"都可以，但介词后、句首主语从句、与 or not 直接连用时只能用 whether。"}
+{"id":"E011","subject":"english","query":"although 和 but 能同时使用吗？","kind":"fact","expected_kp":["E1.11"],"expected_source":["03-第二章-句法上","04-第二章-句法下"],"reference":"不能。中文的「虽然……但是」在英语中只能保留一个连词。"}
+{"id":"E012","subject":"english","query":"虚拟语气与现在事实相反怎么表达？","kind":"fact","expected_kp":["E1.12"],"expected_source":["03-第二章-句法上","04-第二章-句法下"],"reference":"If + 主语 + 过去式（be 用 were），主句用 would/could/might + 动词原形。"}
+{"id":"E013","subject":"english","query":"suggest 后面的宾语从句用什么语气？","kind":"fact","expected_kp":["E1.12"],"expected_source":["03-第二章-句法上","04-第二章-句法下"],"reference":"用虚拟语气 (should) + 动词原形。"}
+{"id":"E014","subject":"english","query":"阅读理解主旨大意题怎么做？","kind":"fact","expected_kp":["E2.1"],"expected_source":"07-第五章-阅读理解","reference":"看首段、末段和各段首句，找反复出现的关键词；排除以偏概全、范围过大、无中生有的选项。"}
+{"id":"E015","subject":"english","query":"阅读事实细节题如何定位？","kind":"fact","expected_kp":["E2.2"],"expected_source":"07-第五章-阅读理解","reference":"圈出人名、数字、时间等关键词回原文定位同义替换，逐项比对；警惕绝对词陷阱。"}
+{"id":"E016","subject":"english","query":"词义猜测题有哪些上下文线索？","kind":"fact","expected_kp":["E2.3"],"expected_source":"07-第五章-阅读理解","reference":"定义线索、举例线索、对比线索、因果线索；答案在上下文中。"}
+{"id":"E017","subject":"english","query":"推理判断题的答案能直接照抄原文吗？","kind":"fact","expected_kp":["E2.4"],"expected_source":"07-第五章-阅读理解","reference":"不能，推理题答案必须基于原文合理推断；照抄原文和过度推断都是常见错误。"}
+{"id":"E018","subject":"english","query":"作者态度题怎么判断？","kind":"fact","expected_kp":["E2.5"],"expected_source":"07-第五章-阅读理解","reference":"关注形容词、副词和转折词，区分 positive、negative、neutral、objective、critical。"}
+{"id":"E019","subject":"english","query":"完形填空的解题步骤是什么？","kind":"fact","expected_kp":["E3.1","E3.2"],"expected_source":"06-第四章-完形填空","reference":"先通读全文抓主题，再逐空结合上下文作答，最后复读检查逻辑、时态和指代。"}
+{"id":"E020","subject":"english","query":"完形填空中 however 和 therefore 有什么区别？","kind":"fact","expected_kp":["E3.2"],"expected_source":"06-第四章-完形填空","reference":"however 表转折，therefore 表因果；根据前后逻辑关系选择。"}
+{"id":"E021","subject":"english","query":"长难句怎么拆分主干？","kind":"fact","expected_kp":["E4.3"],"expected_source":"08-第六章-翻译","reference":"找连词和关系词切块，确定主句主谓宾，再分析从句和修饰成分。"}
+{"id":"E022","subject":"english","query":"英译汉时被动语态怎么处理？","kind":"fact","expected_kp":["E4.1"],"expected_source":"08-第六章-翻译","reference":"中文较少用被动，可转为主动并补充泛指主语，或使用「被/由/受到」。"}
+{"id":"E023","subject":"english","query":"汉译英遇到无主句怎么办？","kind":"fact","expected_kp":["E4.2"],"expected_source":"08-第六章-翻译","reference":"补充主语 we/people/one，或使用被动语态、there be 句型。"}
+{"id":"E024","subject":"english","query":"应用文书信的格式是什么？","kind":"fact","expected_kp":["E5.1"],"expected_source":["09-第七章-写作上-应用文","10-第七章-写作下-提纲图画图表"],"reference":"称呼、开头说明写信目的、正文分点、结尾期待回复、署名。"}
+{"id":"E025","subject":"english","query":"议论文三段式怎么写？","kind":"fact","expected_kp":["E5.2"],"expected_source":["09-第七章-写作上-应用文","10-第七章-写作下-提纲图画图表"],"reference":"引言段引出话题并表明观点，主体段 2-3 个理由加例子，结论段总结并提建议。"}
+{"id":"E026","subject":"english","query":"图表作文怎么描述趋势？","kind":"fact","expected_kp":["E5.3"],"expected_source":["09-第七章-写作上-应用文","10-第七章-写作下-提纲图画图表"],"reference":"用 As is shown in the chart, ... increased/decreased from ... to ...，再分析原因并给结论。"}
+{"id":"E027","subject":"english","query":"写作中常用的衔接词有哪些？","kind":"fact","expected_kp":["E5.4"],"expected_source":["09-第七章-写作上-应用文","10-第七章-写作下-提纲图画图表"],"reference":"however、therefore、besides、as a result、in addition、in conclusion 等。"}
+{"id":"E028","subject":"english","query":"affect 和 effect 有什么区别？","kind":"fact","expected_kp":["E1.1"],"expected_source":"02-第一章-词法","reference":"affect 是动词「影响」，effect 是名词「影响/效果」；have an effect on。"}
+{"id":"E029","subject":"english","query":"depend on 和 rely on 的用法","kind":"fact","expected_kp":["E1.3"],"expected_source":"02-第一章-词法","reference":"两者都表示依赖、依靠，后接名词或动名词。"}
+{"id":"E030","subject":"english","query":"rise 和 raise 怎么区分？","kind":"fact","expected_kp":["E1.4"],"expected_source":"02-第一章-词法","reference":"rise 不及物，表示上升；raise 及物，表示举起、提高，后接宾语。"}
+{"id":"E031","subject":"english","query":"雅思阅读的段落匹配题技巧","kind":"out_of_scope","expected_kp":[],"expected_source":"","reference":"雅思题型超出湖南专升本大学英语考纲，应提示超纲。"}
+{"id":"E032","subject":"english","query":"考研英语一的完形填空怎么提高？","kind":"out_of_scope","expected_kp":[],"expected_source":"","reference":"考研英语超出湖南专升本考纲，应明确提示超出考纲。"}
+{"id":"E033","subject":"english","query":"莎士比亚十四行诗的格律分析","kind":"out_of_scope","expected_kp":[],"expected_source":"","reference":"英国文学格律分析不属于湖南专升本英语考纲，应提示超纲。"}
+{"id":"E034","subject":"english","query":"托福口语独立题模板","kind":"out_of_scope","expected_kp":[],"expected_source":"","reference":"托福考试内容超出湖南专升本考纲，应提示超纲。"}
+{"id":"C001","subject":"cs","query":"二进制 1011 转十进制是多少？","kind":"fact","expected_kp":["C1.2"],"expected_source":"01-计算机基础","reference":"1×2³+0×2²+1×2¹+1×2⁰=11。"}
+{"id":"C002","subject":"cs","query":"二进制与十六进制如何互相转换？","kind":"fact","expected_kp":["C1.2"],"expected_source":"01-计算机基础","reference":"每四位二进制对应一位十六进制，从小数点向两侧分组，不足补零。"}
+{"id":"C003","subject":"cs","query":"ASCII 码中大写字母 A 和小写字母 a 分别是多少？","kind":"fact","expected_kp":["C1.2"],"expected_source":"01-计算机基础","reference":"A 是 65，a 是 97，小写字母比对应大写字母大 32。"}
+{"id":"C004","subject":"cs","query":"1 GB 等于多少 MB？","kind":"fact","expected_kp":["C1.2"],"expected_source":"01-计算机基础","reference":"1 GB=1024 MB，1 MB=1024 KB，1 KB=1024 B，1 B=8 bit。"}
+{"id":"C005","subject":"cs","query":"计算机硬件系统由哪五部分组成？","kind":"fact","expected_kp":["C1.3"],"expected_source":"01-计算机基础","reference":"运算器、控制器、存储器、输入设备、输出设备；运算器和控制器合称 CPU。"}
+{"id":"C006","subject":"cs","query":"RAM 和 ROM 有什么区别？","kind":"fact","expected_kp":["C1.3"],"expected_source":"01-计算机基础","reference":"RAM 断电后数据丢失，可读写；ROM 只读，断电后数据保留。"}
+{"id":"C007","subject":"cs","query":"操作系统的主要功能有哪些？","kind":"fact","expected_kp":["C1.4"],"expected_source":"01-计算机基础","reference":"处理器管理、存储器管理、设备管理、文件管理、用户接口。"}
+{"id":"C008","subject":"cs","query":"进程和线程的区别是什么？","kind":"fact","expected_kp":["C1.4"],"expected_source":"01-计算机基础","reference":"进程是资源分配的基本单位，线程是 CPU 调度的基本单位；同进程线程共享内存。"}
+{"id":"C009","subject":"cs","query":"进程有哪三种基本状态？如何转换？","kind":"fact","expected_kp":["C1.4"],"expected_source":"01-计算机基础","reference":"就绪、运行、阻塞；就绪→运行被调度，运行→就绪时间片到，运行→阻塞等待 I/O，阻塞→就绪 I/O 完成。"}
+{"id":"C010","subject":"cs","query":"绝对路径和相对路径的区别","kind":"fact","expected_kp":["C1.5"],"expected_source":"01-计算机基础","reference":"绝对路径从根目录开始，相对路径从当前目录开始。"}
+{"id":"C011","subject":"cs","query":"计算机病毒的特点有哪些？","kind":"fact","expected_kp":["C1.6"],"expected_source":"01-计算机基础","reference":"传染性、潜伏性、隐蔽性、破坏性、可触发性。"}
+{"id":"C012","subject":"cs","query":"顺序表和链表的优缺点","kind":"fact","expected_kp":["C2.1"],"expected_source":"02-数据结构","reference":"顺序表随机存取但插入删除需移动元素；链表插入删除快但只能顺序查找且指针占空间。"}
+{"id":"C013","subject":"cs","query":"栈和队列的特点分别是什么？","kind":"fact","expected_kp":["C2.2"],"expected_source":"02-数据结构","reference":"栈后进先出，只在栈顶操作；队列先进先出，队尾入队、队头出队。"}
+{"id":"C014","subject":"cs","query":"循环队列的队空和队满条件","kind":"fact","expected_kp":["C2.2"],"expected_source":"02-数据结构","reference":"队空 front==rear；牺牲一个单元时队满 (rear+1)%MaxSize==front。"}
+{"id":"C015","subject":"cs","query":"二叉树叶子结点数与度为 2 的结点数有什么关系？","kind":"fact","expected_kp":["C2.3"],"expected_source":"02-数据结构","reference":"n0=n2+1。"}
+{"id":"C016","subject":"cs","query":"已知先序和中序能否唯一确定二叉树？","kind":"fact","expected_kp":["C2.3"],"expected_source":"02-数据结构","reference":"可以。先序找根，中序分左右子树；先序加后序则不能唯一确定。"}
+{"id":"C017","subject":"cs","query":"二叉排序树的中序遍历有什么特点？","kind":"fact","expected_kp":["C2.3"],"expected_source":"02-数据结构","reference":"中序遍历得到递增有序序列。"}
+{"id":"C018","subject":"cs","query":"邻接矩阵和邻接表分别适合什么图？","kind":"fact","expected_kp":["C2.4"],"expected_source":"02-数据结构","reference":"邻接矩阵适合稠密图，空间 O(n²)；邻接表适合稀疏图，空间 O(n+e)。"}
+{"id":"C019","subject":"cs","query":"深度优先搜索和广度优先搜索分别用什么数据结构？","kind":"fact","expected_kp":["C2.4"],"expected_source":"02-数据结构","reference":"DFS 用栈或递归，BFS 用队列。"}
+{"id":"C020","subject":"cs","query":"折半查找的适用条件是什么？","kind":"fact","expected_kp":["C2.5"],"expected_source":"02-数据结构","reference":"线性表必须有序且顺序存储，时间复杂度 O(log n)。"}
+{"id":"C021","subject":"cs","query":"哈希冲突的解决方法有哪些？","kind":"fact","expected_kp":["C2.5"],"expected_source":"02-数据结构","reference":"开放定址法（线性探测、二次探测）、链地址法。"}
+{"id":"C022","subject":"cs","query":"哪些排序算法是稳定的？","kind":"fact","expected_kp":["C2.6"],"expected_source":"02-数据结构","reference":"冒泡、插入、归并稳定；选择、快速、堆排序不稳定。"}
+{"id":"C023","subject":"cs","query":"快速排序的最坏时间复杂度是多少？","kind":"fact","expected_kp":["C2.6"],"expected_source":"02-数据结构","reference":"最坏 O(n²)，平均 O(n log n)，不稳定。"}
+{"id":"C024","subject":"cs","query":"C 语言中函数参数是值传递还是地址传递？","kind":"fact","expected_kp":["C3.4"],"expected_source":"03-程序设计与数据库","reference":"默认值传递；要修改实参需传指针地址。"}
+{"id":"C025","subject":"cs","query":"数组名和指针有什么关系？","kind":"fact","expected_kp":["C3.5"],"expected_source":"03-程序设计与数据库","reference":"数组名是首元素地址，a[i] 等价于 *(a+i)；数组名是常量不能赋值。"}
+{"id":"C026","subject":"cs","query":"SQL 中 WHERE 和 HAVING 有什么区别？","kind":"fact","expected_kp":["C4.3"],"expected_source":"03-程序设计与数据库","reference":"WHERE 在分组前过滤行，HAVING 在 GROUP BY 之后过滤分组。"}
+{"id":"C027","subject":"cs","query":"SQL 内连接和左连接的区别","kind":"fact","expected_kp":["C4.3"],"expected_source":"03-程序设计与数据库","reference":"内连接只返回匹配行；左连接返回左表全部行，右表无匹配填 NULL。"}
+{"id":"C028","subject":"cs","query":"主键和外键的作用","kind":"fact","expected_kp":["C4.2"],"expected_source":"03-程序设计与数据库","reference":"主键唯一标识一行且非空；外键引用另一张表的主键，维护参照完整性。"}
+{"id":"C029","subject":"cs","query":"第三范式的要求是什么？","kind":"fact","expected_kp":["C4.4"],"expected_source":"03-程序设计与数据库","reference":"满足 2NF，且非主属性不传递依赖于主键。"}
+{"id":"C030","subject":"cs","query":"OSI 七层模型从下到上分别是哪七层？","kind":"fact","expected_kp":["C5.1"],"expected_source":"04-计算机网络","reference":"物理层、数据链路层、网络层、传输层、会话层、表示层、应用层。"}
+{"id":"C031","subject":"cs","query":"TCP 和 UDP 的区别","kind":"fact","expected_kp":["C5.3"],"expected_source":"04-计算机网络","reference":"TCP 面向连接、可靠、字节流；UDP 无连接、不可靠、开销小、速度快。"}
+{"id":"C032","subject":"cs","query":"TCP 三次握手的过程","kind":"fact","expected_kp":["C5.3"],"expected_source":"04-计算机网络","reference":"客户端发 SYN；服务器回 SYN+ACK；客户端回 ACK，连接建立。"}
+{"id":"C033","subject":"cs","query":"TCP 四次挥手为什么要 TIME_WAIT？","kind":"fact","expected_kp":["C5.3"],"expected_source":"04-计算机网络","reference":"主动关闭方等待 2MSL，确保最后一个 ACK 到达并让旧报文消失。"}
+{"id":"C034","subject":"cs","query":"HTTP 和 HTTPS 的默认端口","kind":"fact","expected_kp":["C5.3"],"expected_source":"04-计算机网络","reference":"HTTP 默认 80，HTTPS 默认 443。"}
+{"id":"C035","subject":"cs","query":"DNS 的作用和默认端口","kind":"fact","expected_kp":["C5.3"],"expected_source":"04-计算机网络","reference":"把域名解析为 IP 地址，默认端口 53，通常使用 UDP。"}
+{"id":"C036","subject":"cs","query":"192.168.1.0/24 划分为 4 个子网，子网掩码是多少？","kind":"fact","expected_kp":["C5.2"],"expected_source":"04-计算机网络","reference":"借 2 位主机位，前缀变为 /26，子网掩码 255.255.255.192，每个子网 62 个可用主机地址。"}
+{"id":"C037","subject":"cs","query":"私有 IP 地址范围有哪些？","kind":"fact","expected_kp":["C5.2"],"expected_source":"04-计算机网络","reference":"10.0.0.0-10.255.255.255、172.16.0.0-172.31.255.255、192.168.0.0-192.168.255.255。"}
+{"id":"C038","subject":"cs","query":"计算机网络安全的基本目标是什么？","kind":"fact","expected_kp":["C5.4"],"expected_source":"04-计算机网络","reference":"保密性、完整性、可用性。"}
+{"id":"C039","subject":"cs","query":"SQL 注入攻击如何防范？","kind":"fact","expected_kp":["C5.4"],"expected_source":"04-计算机网络","reference":"对用户输入校验和参数化查询，最小权限原则，避免拼接 SQL。"}
+{"id":"C040","subject":"cs","query":"对称加密和非对称加密的区别","kind":"fact","expected_kp":["C5.4"],"expected_source":"04-计算机网络","reference":"对称加密同一密钥，速度快；非对称加密公钥加密私钥解密，安全性高但速度慢。"}
+{"id":"C041","subject":"cs","query":"编译原理中 LL(1) 文法的预测分析表怎么构造？","kind":"out_of_scope","expected_kp":[],"expected_source":"","reference":"编译原理超出湖南专升本计算机基础考纲，应提示超纲。"}
+{"id":"C042","subject":"cs","query":"Linux 内核的进程调度 CFS 算法实现","kind":"out_of_scope","expected_kp":[],"expected_source":"","reference":"内核调度实现超出湖南专升本计算机基础考纲，应提示超纲。"}
+{"id":"C043","subject":"cs","query":"分布式系统 CAP 定理怎么证明？","kind":"out_of_scope","expected_kp":[],"expected_source":"","reference":"分布式系统 CAP 超出湖南专升本考纲，应提示超纲。"}
+{"id":"C044","subject":"cs","query":"机器学习中的反向传播算法推导","kind":"out_of_scope","expected_kp":[],"expected_source":"","reference":"机器学习超出湖南专升本计算机基础考纲，应提示超纲。"}
+{"id":"C045","subject":"cs","query":"数据库事务的 MVCC 实现原理","kind":"out_of_scope","expected_kp":[],"expected_source":"","reference":"MVCC 属于高级数据库实现，超出湖南专升本考纲，应提示超纲。"}

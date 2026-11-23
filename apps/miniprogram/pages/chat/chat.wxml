@@ -1,0 +1,145 @@
+<view class="page">
+  <view wx:if="{{exact.length}}" class="banner danger">
+    <view class="banner-title">这道题你之前错过</view>
+    <view wx:for="{{exact}}" wx:key="id" class="banner-item">
+      <view class="banner-label">上次备注</view>
+      <rich-text wx:if="{{item.noteNodes.length}}" nodes="{{item.noteNodes}}"></rich-text>
+      <view wx:else class="banner-muted">未写备注</view>
+      <view class="banner-sub">题号 {{item.id}} · {{item.status}}</view>
+    </view>
+  </view>
+  <view wx:elif="{{similar.length}}" class="banner warn">
+    <view class="banner-title">你在同类题上栽过，注意别重复踩坑</view>
+    <view wx:for="{{similar}}" wx:key="id" class="banner-item">
+      <view class="ellipsis">{{item.stem}}</view>
+      <view class="banner-sub">相似度 {{item.simText}} · {{item.status}}</view>
+    </view>
+  </view>
+
+  <view class="card q-card">
+    <view class="q-head" bindtap="toggleQuestion">
+      <text class="q-label">题目</text>
+      <text class="q-toggle">{{qCollapsed ? '展开' : '收起'}}</text>
+    </view>
+    <view wx:if="{{!qCollapsed}}">
+      <rich-text wx:if="{{questionNodes.length}}" class="q-text" nodes="{{questionNodes}}"></rich-text>
+      <text wx:else class="q-text">{{text}}</text>
+    </view>
+  </view>
+
+  <view class="dialog">
+    <block wx:for="{{messages}}" wx:key="key">
+      <view class="msg-row {{item.role}}">
+        <view wx:if="{{item.role === 'assistant'}}" class="avatar">师</view>
+        <view class="bubble {{item.role}}">
+          <block wx:if="{{item.role === 'assistant'}}">
+            <rich-text class="answer-md" nodes="{{item.nodes}}"></rich-text>
+
+            <view wx:if="{{item.cites.length}}" class="cites">
+              <view class="cites-title">教材依据</view>
+              <view wx:for="{{item.cites}}" wx:for-item="c" wx:key="index" class="cite">
+                <view class="cite-src">{{c.source}}</view>
+                <view class="cite-kp">{{c.page ? c.page + ' · ' : ''}}{{c.kp}}</view>
+              </view>
+            </view>
+
+            <view class="msg-tools" bindtap="copyMsg" data-key="{{item.key}}">复制这段</view>
+          </block>
+          <text wx:else user-select class="user-text">{{item.text}}</text>
+        </view>
+      </view>
+    </block>
+
+    <view wx:if="{{loading || sending}}" class="msg-row assistant">
+      <view class="avatar">师</view>
+      <view class="bubble assistant typing">
+        <view class="dot"></view>
+        <text class="loading-text">{{stageText}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view wx:if="{{error}}" class="err-box">
+    <view class="err-text">{{error}}</view>
+    <view class="btn-ghost" style="margin-top:16rpx" bindtap="retry">重试上一步</view>
+  </view>
+
+  <view wx:if="{{!loading && !sending && messages.length > 1}}" class="quick">
+    <view
+      wx:for="{{quickAsks}}"
+      wx:key="label"
+      class="chip"
+      data-index="{{index}}"
+      bindtap="useQuick"
+    >{{item.label}}</view>
+  </view>
+
+  <view wx:if="{{!loading}}" class="footer">
+    <view wx:if="{{savedId}}" class="btn-ghost" bindtap="goWrongbook">已存入错题本 · 去看看</view>
+    <view wx:else class="btn-primary" bindtap="openSave">明白了，存入错题本</view>
+    <view class="footer-hint">本次共 {{turns}} 轮答疑 · 没听懂就继续问，直到弄明白为止</view>
+  </view>
+
+  <view class="composer">
+    <!-- 讲解动辄上千字，主按钮常被推到很下面；输入栏旁边常驻一个入口，随时能存 -->
+    <view
+      wx:if="{{messages.length > 1}}"
+      class="composer-save"
+      bindtap="onSaveTap"
+    >{{savedId ? '已存' : '存错题'}}</view>
+    <textarea
+      class="composer-input"
+      value="{{input}}"
+      bindinput="onInput"
+      bindconfirm="sendFollowUp"
+      confirm-type="send"
+      auto-height
+      maxlength="1000"
+      cursor-spacing="24"
+      disabled="{{loading || sending}}"
+      placeholder="{{loading ? '老师正在讲解…' : (sending ? '老师正在回答…' : '还有哪里没懂？继续问')}}"
+    ></textarea>
+    <view class="composer-btn {{input && !loading && !sending ? 'on' : 'off'}}" bindtap="sendFollowUp">
+      {{sending ? '…' : '发送'}}
+    </view>
+  </view>
+
+  <view wx:if="{{showSave}}" class="mask" bindtap="closeSave"></view>
+  <view wx:if="{{showSave}}" class="sheet">
+    <view class="sheet-title">存入错题本</view>
+    <view class="sheet-sub">解析取首轮讲解，备注是这次问答的要点；同一道题重复保存会自动合并</view>
+
+    <view class="field-label">题目</view>
+    <view class="field-readonly">
+      <rich-text wx:if="{{questionNodes.length}}" nodes="{{questionNodes}}"></rich-text>
+      <text wx:else>{{text}}</text>
+    </view>
+
+    <view class="field-label">解析</view>
+    <textarea
+      class="field"
+      value="{{solution}}"
+      bindinput="onSolutionInput"
+      auto-height
+      maxlength="3000"
+    ></textarea>
+
+    <view class="field-label">
+      备注（要点 / 错因）
+      <text wx:if="{{summarizing}}" class="field-tip">正在总结这次对话…</text>
+    </view>
+    <textarea
+      class="field"
+      value="{{note}}"
+      bindinput="onNoteInput"
+      auto-height
+      maxlength="1000"
+      placeholder="例如：主要是没想起先验证三个条件"
+    ></textarea>
+
+    <view class="row gap" style="margin-top:28rpx">
+      <view class="btn-ghost" style="flex:1" bindtap="closeSave">取消</view>
+      <view class="btn-primary" style="flex:2" bindtap="confirmSave">{{saving ? '保存中…' : '确认保存'}}</view>
+    </view>
+  </view>
+</view>

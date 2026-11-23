@@ -1,0 +1,216 @@
+.topbar {
+  display: flex;
+  gap: 16rpx;
+  padding: 24rpx 24rpx 8rpx;
+}
+
+.summary {
+  padding: 0 30rpx 8rpx;
+  font-size: 25rpx;
+  color: #8a9099;
+}
+
+.item {
+  padding: 28rpx 30rpx;
+}
+
+.item-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12rpx;
+}
+
+.chapter {
+  font-size: 24rpx;
+  color: #1f6feb;
+  background: #eef4ff;
+  padding: 6rpx 16rpx;
+  border-radius: 999rpx;
+}
+
+.status {
+  font-size: 23rpx;
+  color: #8a9099;
+}
+
+/* 题干走 rich-text（分式是上下叠放的块），line-clamp 管不到内部节点，只能靠限高截断 */
+.stem {
+  position: relative;
+  max-height: 168rpx;
+  overflow: hidden;
+  font-size: 28rpx;
+  line-height: 1.7;
+}
+
+/* 限高会把最后一行从中间切断，用一层底色渐隐过渡，看起来像「还有更多」而不是 bug */
+.stem::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 44rpx;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff);
+  pointer-events: none;
+}
+
+.note {
+  margin-top: 14rpx;
+  background: #fffbe6;
+  border-radius: 10rpx;
+  padding: 14rpx 18rpx;
+}
+
+.note-tag {
+  font-size: 23rpx;
+  font-weight: 600;
+  color: #ad6800;
+  margin-bottom: 6rpx;
+}
+
+/* 列表里只露前几条要点，剩下的去详情看 */
+.note-body {
+  position: relative;
+  max-height: 156rpx;
+  overflow: hidden;
+  font-size: 26rpx;
+  line-height: 1.62;
+}
+
+.note-body::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 40rpx;
+  background: linear-gradient(to bottom, rgba(255, 251, 230, 0), #fffbe6);
+  pointer-events: none;
+}
+
+.meta {
+  margin-top: 14rpx;
+  font-size: 23rpx;
+  color: #a0a6ae;
+}
+
+.empty {
+  text-align: center;
+  color: #8a9099;
+  font-size: 27rpx;
+  padding: 120rpx 40rpx;
+}
+
+.end {
+  text-align: center;
+  color: #b6bcc4;
+  font-size: 23rpx;
+  padding: 32rpx 0 120rpx;
+}
+
+.fab {
+  position: fixed;
+  right: 32rpx;
+  bottom: 64rpx;
+  background: #1f6feb;
+  color: #ffffff;
+  font-size: 28rpx;
+  padding: 22rpx 34rpx;
+  border-radius: 999rpx;
+  box-shadow: 0 8rpx 24rpx rgba(31, 111, 235, 0.3);
+}
+
+.mask {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 10;
+}
+
+.sheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ffffff;
+  border-radius: 28rpx 28rpx 0 0;
+  padding: 36rpx 32rpx 56rpx;
+  z-index: 11;
+  max-height: 88vh;
+  overflow-y: auto;
+}
+
+.field-label {
+  font-size: 25rpx;
+  color: #5a6069;
+  margin: 24rpx 0 10rpx;
+}
+
+.field-tip {
+  font-size: 22rpx;
+  color: #a0a6ae;
+  margin-left: 12rpx;
+}
+
+.solution-box {
+  max-height: 40vh;
+  background: #f7f8fa;
+  border-radius: 12rpx;
+  padding: 20rpx 24rpx;
+}
+
+.field-empty {
+  font-size: 26rpx;
+  color: #8a9099;
+  background: #f7f8fa;
+  border-radius: 12rpx;
+  padding: 24rpx;
+}
+
+/* 备注默认是渲染好的样子，点一下才进编辑态 */
+.note-view {
+  background: #fffbe6;
+  border: 1px solid #ffe58f;
+  border-radius: 12rpx;
+  padding: 20rpx 24rpx;
+  min-height: 96rpx;
+}
+
+.note-empty {
+  font-size: 26rpx;
+  color: #ad6800;
+  opacity: 0.75;
+  line-height: 1.7;
+}
+
+.sheet-title {
+  font-size: 34rpx;
+  font-weight: 600;
+}
+
+.stem-box {
+  margin-top: 16rpx;
+  font-size: 27rpx;
+  color: #1f2329;
+  background: #f7f8fa;
+  border-radius: 12rpx;
+  padding: 20rpx;
+  max-height: 320rpx;
+  box-sizing: border-box;
+}
+
+.field {
+  width: 100%;
+  margin-top: 20rpx;
+  background: #f7f8fa;
+  border-radius: 12rpx;
+  padding: 20rpx 24rpx;
+  box-sizing: border-box;
+  font-size: 28rpx;
+  line-height: 1.65;
+  min-height: 140rpx;
+}

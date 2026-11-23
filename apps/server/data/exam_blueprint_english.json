@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "title": "湖南专升本大学英语模拟卷",
+    "total_score": 150,
+    "minutes": 120,
+    "question_count": 25,
+    "sources": {
+      "official": "湖南省普通高等学校专升本公共科目《大学英语》考试要求（每门满分 150 分）。",
+      "structure": "依据《库课专升本·大学英语》教材目录（data/kb/english）第三部分「考试题型精讲」的题型占比拆解：词汇和语法 20%、完形填空 13%、阅读理解 27%、翻译 20%、写作 20%。本系统目前只收录选择题与翻译题两类英语错题，故卷面按这两类组卷，章节名与笔记文件一一对应。"
+    },
+    "editable": "改这里就能改英语卷型：sections 各段 points×count 之和必须等于 total_score；modules 各模块 choice/blank/solve 题数与 sections 的 count 必须一致。章节名必须与 data/kp/english.json 的 chapter 完全一致。",
+    "version": 1
+  },
+  "sections": [
+    {
+      "key": "choice",
+      "name": "一、选择题",
+      "type": "选择题",
+      "count": 20,
+      "points": 4
+    },
+    {
+      "key": "solve",
+      "name": "二、翻译题",
+      "type": "翻译题",
+      "count": 5,
+      "points": 14
+    }
+  ],
+  "modules": [
+    {
+      "name": "第一章 词法",
+      "chapters": ["第一章 词法"],
+      "choice": 3,
+      "blank": 0,
+      "solve": 0,
+      "score": 12
+    },
+    {
+      "name": "第二章 句法",
+      "chapters": ["第二章 句法上", "第二章 句法下"],
+      "choice": 5,
+      "blank": 0,
+      "solve": 0,
+      "score": 20
+    },
+    {
+      "name": "第三章 词汇和语法",
+      "chapters": ["第三章 词汇和语法"],
+      "choice": 2,
+      "blank": 0,
+      "solve": 0,
+      "score": 8
+    },
+    {
+      "name": "第四章 完形填空",
+      "chapters": ["第四章 完形填空"],
+      "choice": 3,
+      "blank": 0,
+      "solve": 0,
+      "score": 12
+    },
+    {
+      "name": "第五章 阅读理解",
+      "chapters": ["第五章 阅读理解"],
+      "choice": 7,
+      "blank": 0,
+      "solve": 0,
+      "score": 28
+    },
+    {
+      "name": "第六章 翻译",
+      "chapters": ["第六章 翻译"],
+      "choice": 0,
+      "blank": 0,
+      "solve": 5,
+      "score": 70
+    },
+    {
+      "name": "第七章 写作",
+      "chapters": ["第七章 写作上（应用文）", "第七章 写作下（提纲·图画·图表）"],
+      "choice": 0,
+      "blank": 0,
+      "solve": 0,
+      "score": 0
+    }
+  ],
+  "grading": {
+    "选择题": "选对得满分；选错或未答 0 分。",
+    "翻译题": "按关键词与短语、时态语态、从句与语序、整体意思四块给分：关键词错一处扣 2 分，时态/语态错扣 3 分，从句或语序处理错扣 3 分，意思偏离扣 4 分；允许与参考译文措辞不同但意思准确、语法正确的表达。",
+    "AI 评卷要求": "逐题给出得分比例、扣分理由（引用学生译文片段）、以及一条针对性建议；不得只给总分。解析用中文。"
+  }
+}
