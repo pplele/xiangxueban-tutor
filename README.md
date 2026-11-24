@@ -10,7 +10,7 @@
 
 > **无需安装，手机浏览器直接访问即可体验完整功能。**
 
-- **演示地址**：`https://northwest-trans-proceeding-berry.trycloudflare.com`
+- **演示地址**：`https://campaigns-corporate-dave-examined.trycloudflare.com`
 - **演示账号**：见下方「访问方式」说明（账号密码由服务端 `.env` 配置，仓库中不含明文凭据）
 
 **安卓端访问方式**（三选一，推荐第 1 种）：
@@ -35,9 +35,13 @@
 |---|---|
 | ![谚语](docs/screenshots/09-趣味记忆-谚语.png) | ![近似词](docs/screenshots/10-趣味记忆-近似.png) |
 
-| 背搭配（固定搭配卡片） | 学习笔记 |
+| 翻转藏译自测（点词朗读） | 背搭配（固定搭配卡片） |
 |---|---|
-| ![背搭配](docs/screenshots/11-背搭配.png) | ![学习笔记](docs/screenshots/05-学习笔记.png) |
+| ![翻转藏译](docs/screenshots/12-趣味记忆-翻转藏译.png) | ![背搭配](docs/screenshots/11-背搭配.png) |
+
+| 学习笔记 | 学习画像 |
+|---|---|
+| ![学习笔记](docs/screenshots/05-学习笔记.png) | ![学习画像](docs/screenshots/06-学习画像.png) |
 
 | 学习画像 | 个人主页（配置） |
 |---|---|

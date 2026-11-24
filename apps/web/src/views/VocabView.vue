@@ -1166,19 +1166,31 @@ function escapeStoryHtml(s: string): string {
 }
 
 /**
- * 行内渲染：**词**（释义）→ 译文 span（翻转时直接渲染成 is-hidden，HTML 层面生效，不依赖父级 class）；
- * **词** → 可点击朗读的生词。
+ * 行内渲染：把「词 + 中文释义」渲染成 可朗读生词 + 可遮盖译文 span。
+ * 支持两种格式（翻转时译文直接渲染成 is-hidden，HTML 层面生效，不依赖父级 class）：
+ *   1) **词**（释义）   —— 标准格式，词已加粗
+ *   2) 词（释义）        —— 裸格式：词为英文/短语（含重音字母、撇号、连字符、空格），
+ *                          释义含中文时自动识别并包裹，兼容手写故事正文
  * @param line 单行文本
  * @param hideGloss 是否隐藏中文译文
  */
 function renderStoryInline(line: string, hideGloss: boolean): string {
+  const wordHtml = (word: string) => `<strong class="st-word" title="点击朗读">${word}</strong>`;
+  const glossHtml = (gloss: string) =>
+    `<span class="st-gloss${hideGloss ? ' is-hidden' : ''}">（${gloss}）</span>`;
+  // 1) 标准格式：**词**（释义）
   let h = line.replace(
     /\*\*([^*]+)\*\*（([^）]*)）/g,
-    (_m, word: string, gloss: string) =>
-      `<strong class="st-word" title="点击朗读">${word}</strong>` +
-      `<span class="st-gloss${hideGloss ? ' is-hidden' : ''}">（${gloss}）</span>`,
+    (_m, word: string, gloss: string) => wordHtml(word) + glossHtml(gloss),
   );
-  h = h.replace(/\*\*([^*]+)\*\*/g, '<strong class="st-word" title="点击朗读">$1</strong>');
+  // 2) 裸格式：英文词/短语 + （中文释义）。词需以拉丁字母开头，仅含字母/空格/撇号/连字符/句点；
+  //    释义需含中文，避免把叙述性括号（如「（此处略）」的纯符号）误判。
+  h = h.replace(
+    /(^|[\s，。、；：！？"'“”（)（])([A-Za-zÀ-ÿ][A-Za-zÀ-ÿ\s'’\-.]*?)（([^）]*[\u4e00-\u9fa5][^）]*)）/g,
+    (_m, lead: string, word: string, gloss: string) => lead + wordHtml(word.trim()) + glossHtml(gloss),
+  );
+  // 3) 剩余 **词** → 可点击朗读的生词（无释义）
+  h = h.replace(/\*\*([^*]+)\*\*/g, (_m, word: string) => wordHtml(word));
   return h;
 }
 
