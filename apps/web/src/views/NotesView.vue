@@ -713,23 +713,65 @@ onBeforeUnmount(() => {
   line-height: 1.7;
 }
 
-/* 章：编号 + 标题 + 条目列表 */
+/* ---------- 笔记本 · 活页纸 ---------- */
 .chapter-paper {
-  margin-bottom: 26px;
-  padding-top: 14px;
-  border-top: 1px solid var(--line);
+  position: relative;
+  margin: 0 0 24px 18px;
+  padding: 20px 24px 22px 44px;
+  border: 1px solid var(--line-strong);
+  border-left: 0;
+  border-radius: 3px 12px 12px 3px;
+  background-color: #fffdf7;
+  /* 淡横线纸 */
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0 27px,
+    rgba(53, 106, 140, 0.13) 27px 28px
+  );
+  background-position: 0 6px;
+  box-shadow: 0 2px 3px rgba(27, 41, 38, 0.04), 0 12px 26px rgba(27, 41, 38, 0.07);
   scroll-margin-top: 20px;
+}
+/* 左侧装订孔 */
+.chapter-paper::before {
+  content: '';
+  position: absolute;
+  left: 9px;
+  top: 16px;
+  bottom: 16px;
+  width: 18px;
+  background-image: radial-gradient(
+    circle at 9px 9px,
+    var(--bg) 0 5px,
+    var(--line-strong) 5px 6px,
+    transparent 6.5px
+  );
+  background-size: 18px 46px;
+  background-repeat: repeat-y;
+}
+/* 红色装订边线 */
+.chapter-paper::after {
+  content: '';
+  position: absolute;
+  left: 34px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: rgba(180, 95, 59, 0.3);
 }
 .chapter-head {
   display: flex;
   align-items: baseline;
   gap: 12px;
-  margin-bottom: 12px;
+  margin: 0 0 14px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--terra-soft);
 }
 .chapter-no {
   color: var(--terra);
   font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
   font-size: 12px;
+  font-weight: 700;
 }
 .chapter-head h3 {
   flex: 1;
@@ -745,18 +787,39 @@ onBeforeUnmount(() => {
 .entry-list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 4px;
+  /* 给每条记录自动编号 */
+  counter-reset: entryno;
 }
 .entry {
-  padding: 10px 15px 12px;
-  border-left: 3px solid var(--accent-soft);
-  border-radius: 0 8px 8px 0;
-  background: var(--panel-soft);
-  transition: border-color 0.15s ease, background 0.15s ease;
+  position: relative;
+  padding: 8px 12px 9px 44px;
+  border-radius: 6px;
+  transition: background 0.15s ease;
 }
 .entry:hover {
-  border-left-color: var(--accent);
-  background: var(--panel);
+  background: rgba(227, 240, 234, 0.4);
+}
+/* 手写序号圆章 */
+.entry::before {
+  counter-increment: entryno;
+  content: counter(entryno);
+  position: absolute;
+  left: 6px;
+  top: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border: 1.5px solid var(--terra);
+  border-radius: 50%;
+  color: var(--terra);
+  background: #fffdf7;
+  font-family: var(--serif);
+  font-size: 13px;
+  font-weight: 700;
+  transform: rotate(-8deg);
 }
 .entry-meta {
   display: flex;
@@ -783,22 +846,27 @@ onBeforeUnmount(() => {
 }
 .entry-lines li {
   position: relative;
-  padding-left: 16px;
+  padding: 3px 0 3px 18px;
   color: var(--ink-2);
   font-size: 14px;
-  line-height: 1.85;
+  line-height: 1.75;
   overflow-wrap: anywhere;
 }
+/* 每条要点前的小铅笔标记 */
 .entry-lines li::before {
-  content: '';
+  content: '✎';
   position: absolute;
-  left: 2px;
-  top: 0.78em;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--terra);
-  opacity: 0.75;
+  left: 0;
+  top: 3px;
+  color: var(--terra);
+  font-size: 13px;
+  opacity: 0.7;
+}
+/* 要点之间用虚线分隔，像逐条写下的笔记 */
+.entry-lines li + li {
+  margin-top: 5px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--line);
 }
 .entry-lines .rich {
   display: inline;
@@ -853,32 +921,85 @@ onBeforeUnmount(() => {
 .manual-list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
+  counter-reset: noteno;
 }
 .manual-card {
+  counter-increment: noteno;
+}
+/* 标题前的手写编号 */
+.manual-head h3::before {
+  content: counter(noteno) '.';
+  display: inline-block;
+  margin-right: 8px;
+  color: var(--terra);
+  font-family: var(--serif);
+  font-weight: 700;
+  opacity: 0.8;
+}
+.manual-card {
+  position: relative;
   display: flex;
   overflow: hidden;
-  border: 1px solid var(--line);
-  border-radius: 10px;
-  background: var(--panel);
-  transition: border-color 0.16s ease, box-shadow 0.16s ease;
+  border: 1px solid var(--line-strong);
+  border-radius: 3px 12px 12px 3px;
+  /* 便签纸横线 + 淡黄底 */
+  background-color: #fffdf7;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0 27px,
+    rgba(53, 106, 140, 0.1) 27px 28px
+  );
+  background-position: 0 8px;
+  box-shadow: 0 2px 3px rgba(27, 41, 38, 0.04), 0 10px 24px rgba(27, 41, 38, 0.06);
+  transition: box-shadow 0.16s ease, transform 0.16s ease;
 }
 .manual-card:hover {
-  border-color: var(--line-strong);
-  box-shadow: var(--shadow-lift);
+  box-shadow: 0 4px 6px rgba(27, 41, 38, 0.06), 0 16px 34px rgba(27, 41, 38, 0.1);
+  transform: translateY(-1px);
 }
+/* 活页装订孔条 */
 .manual-stripe {
-  width: 4px;
+  position: relative;
+  width: 26px;
   flex-shrink: 0;
+  background: var(--panel-soft);
+  border-right: 1px solid var(--line);
+}
+.manual-stripe::before {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 14px;
+  bottom: 14px;
+  width: 14px;
+  background-image: radial-gradient(
+    circle at 7px 7px,
+    var(--bg) 0 4px,
+    var(--line-strong) 4px 4.8px,
+    transparent 5px
+  );
+  background-size: 14px 46px;
+  background-repeat: repeat-y;
+}
+/* 科目色标：顶部小色条 */
+.manual-stripe::after {
+  content: '';
+  position: absolute;
+  top: 12px;
+  bottom: 12px;
+  right: 0;
+  width: 3px;
   background: var(--blue);
 }
-.manual-card.english .manual-stripe {
+.manual-card.english .manual-stripe::after {
   background: var(--terra);
 }
 .manual-inner {
+  position: relative;
   flex: 1;
   min-width: 0;
-  padding: 14px 18px 12px;
+  padding: 16px 22px 14px;
 }
 .manual-head {
   display: flex;

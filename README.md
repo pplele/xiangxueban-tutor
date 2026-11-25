@@ -39,9 +39,9 @@
 |---|---|
 | ![翻转藏译](docs/screenshots/12-趣味记忆-翻转藏译.png) | ![背搭配](docs/screenshots/11-背搭配.png) |
 
-| 学习笔记 | 学习画像 |
+| 学习笔记（数学 · 活页纸） | 学习笔记（英语 · 活页纸） |
 |---|---|
-| ![学习笔记](docs/screenshots/05-学习笔记.png) | ![学习画像](docs/screenshots/06-学习画像.png) |
+| ![学习笔记](docs/screenshots/05-学习笔记.png) | ![笔记英语](docs/screenshots/13-笔记-英语.png) |
 
 | 学习画像 | 个人主页（配置） |
 |---|---|
