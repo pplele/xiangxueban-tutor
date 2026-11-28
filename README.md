@@ -2,7 +2,9 @@
 
 面向湖南专升本（高等数学 / 大学英语 / 计算机基础）的个性化辅导系统：答疑解惑带知识库出处、错题自动生成 L1/L2/L5 变式、三科独立教师风格、跨科目全局画像与情感路由、内置 149 题评测集与四组消融实验。
 
-> 技术栈按开发文档锁定：Vue 3 + TypeScript + Vite + Pinia / Fastify + TypeScript + Zod / PostgreSQL 16 + pgvector / DeepSeek（OpenAI 兼容）/ SSE。
+> **毕业设计速览**：本系统把「大模型 Agent + RAG」用到专升本复习的三个核心环节——**答疑**（先查教材再回答、标注出处、超纲明确提示）、**错题**（粘贴即入库、自动生成同类变式、做完整理回写）、**练习**（按考纲组卷机考 + 拍照批改）。手写 Agent Loop（最多 5 轮工具调用）+ 8 个业务工具；RAG 采用「查询改写 → 向量/全文双路召回 → RRF 融合 → 精排」链路。知识库来自数学、英语教材逐页转录（合计约 76 万字）。配套 149 题评测集与四组消融实验验证效果。详见下方各章节。
+
+> 技术栈：Vue 3 + TypeScript + Vite + Pinia / Fastify + TypeScript + Zod / PostgreSQL 16 + pgvector / 大模型（OpenAI 兼容协议，当前配置智谱 GLM，可切换 DeepSeek 等）/ SSE。
 
 ---
 
@@ -10,7 +12,7 @@
 
 > **无需安装，手机浏览器直接访问即可体验完整功能。**
 
-- **演示地址**：`https://campaigns-corporate-dave-examined.trycloudflare.com`
+- **演示地址**：`https://oils-programs-vegas-finals.trycloudflare.com`
 - **演示账号**：见下方「访问方式」说明（账号密码由服务端 `.env` 配置，仓库中不含明文凭据）
 
 **安卓端访问方式**（三选一，推荐第 1 种）：
@@ -46,6 +48,10 @@
 | 学习画像 | 个人主页（配置） |
 |---|---|
 | ![学习画像](docs/screenshots/06-学习画像.png) | ![个人主页](docs/screenshots/07-个人主页.png) |
+
+| 学单词（视频课目录 + 播放器） | 全套学习流程（三阶段备考） |
+|---|---|
+| ![学单词](docs/screenshots/14-学单词-视频课.png) | ![全套学习流程](docs/screenshots/15-全套学习流程.png) |
 
 ---
 
@@ -118,7 +124,7 @@ tutor-system/
 
 - Node.js **20+**（开发使用 Node 24）
 - PostgreSQL **16** + **pgvector**（本机安装或 `docker compose up -d`）
-- 可用的 DeepSeek API Key；SiliconFlow Embedding / Reranker Key
+- 可用的 OpenAI 兼容大模型 API Key（示例配置为智谱 GLM，可换 DeepSeek 等）；Embedding / Reranker Key
 
 Docker 方式：
 
@@ -289,7 +295,7 @@ curl -N -X POST http://localhost:8849/api/chat/ask \
 - **客户端零安装**：安卓 / iOS / 电脑浏览器打开同一地址即可，响应式布局自动适配手机屏幕。
 - **类 App 体验**：手机浏览器「添加到主屏幕」后可全屏运行，图标与原生 App 一致。
 - **数据同步**：所有功能（错题、笔记、单词进度、模拟卷）账号隔离、跨设备实时同步。
-- **演示素材**：`docs/screenshots/` 目录包含 12 张真实运行截图，覆盖全部核心模块，可直接用于作业展示。
+- **演示素材**：`docs/screenshots/` 目录包含 16 张真实运行截图，覆盖全部核心模块（含视频课目录与播放器），可直接用于作业展示。课程视频（约 200G）不入库，仅以截图展示。
 
 如需打包为独立 APK，可在不影响现有代码的前提下用 Capacitor / WebView 容器套壳（前端构建产物 + 后端 API 地址指向线上服务），本仓库代码无需改动即可适配。
 
