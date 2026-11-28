@@ -8,6 +8,8 @@ dist/
 coverage/
 .DS_Store
 apps/web/dist/
+# 构建前的旧产物备份目录
+apps/web/dist_*/
 apps/server/dist/
 *.tsbuildinfo
 eval/results/

@@ -1,6 +1,7 @@
 // 前后端共享类型与常量
 
 export * from './tex';
+export * from './reviewGroups';
 
 /** 科目代码联合类型：数学 / 英语 / 计算机 */
 export type SubjectCode = 'math' | 'english' | 'cs';

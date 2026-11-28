@@ -20,6 +20,7 @@ import { profileRoutes } from './routes/profile';
 import { examRoutes } from './routes/exams';
 import { evalRoutes } from './routes/eval';
 import { vocabRoutes } from './routes/vocab';
+import { reviewRoutes } from './routes/review';
 import { lessonRoutes } from './routes/lessons';
 import { settingsRoutes } from './routes/settings';
 import { noteRoutes } from './routes/notes';
@@ -118,6 +119,7 @@ export async function buildApp(): Promise<FastifyInstance> {
       await api.register(examRoutes);
       await api.register(evalRoutes);
       await api.register(vocabRoutes);
+      await api.register(reviewRoutes);
       await api.register(lessonRoutes);
       await api.register(settingsRoutes);
       await api.register(noteRoutes);

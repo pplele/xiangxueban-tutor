@@ -5,6 +5,7 @@ import LoadingState from '@/components/LoadingState.vue';
 import ErrorState from '@/components/ErrorState.vue';
 import NavIcon from '@/components/NavIcon.vue';
 import VocabCourse from '@/components/VocabCourse.vue';
+import ReviewWords from '@/components/ReviewWords.vue';
 import { buildMemoryBody, normalizeMemoryBody, type MemoryDraft } from '@/lib/memory';
 
 type Mark = 'green' | 'yellow' | 'red';
@@ -80,7 +81,7 @@ function readDraft(): Draft | null {
   }
 }
 
-const tab = ref<'test' | 'history' | 'course' | 'essay' | 'collocation' | 'story'>('test');
+const tab = ref<'test' | 'history' | 'course' | 'essay' | 'collocation' | 'story' | 'review'>('test');
 const loading = ref(true);
 const error = ref('');
 
@@ -1407,10 +1408,12 @@ onBeforeUnmount(() => {
   <div class="page page-wide vocab-page">
     <header class="page-header">
       <div>
-        <div class="eyebrow">英语 · 词汇查漏补缺</div>
-        <h1 class="page-title">单词本 · 一轮一轮过</h1>
+        <div class="eyebrow">{{ tab === 'review' ? '英语 · 分块复习' : '英语 · 词汇查漏补缺' }}</div>
+        <h1 class="page-title">{{ tab === 'review' ? '复习单词' : '单词本 · 一轮一轮过' }}</h1>
         <p class="page-desc">
-          单击 = 熟悉（绿），连点两下 = 模糊（黄），连点三下 = 遗忘（红）；不点的词保留原区，不用逐个重新点。右键任意单词看释义，鼠标移开即隐藏。
+          {{ tab === 'review'
+            ? '按教材单元 / 题目词法分成小块，一块一块过；照片识别导入的新词全部从灰色开始，点 1 下熟悉、2 下模糊、3 下遗忘。'
+            : '单击 = 熟悉（绿），连点两下 = 模糊（黄），连点三下 = 遗忘（红）；不点的词保留原区，不用逐个重新点。右键任意单词看释义，鼠标移开即隐藏。' }}
         </p>
       </div>
       <div class="vocab-tabs">
@@ -1420,10 +1423,14 @@ onBeforeUnmount(() => {
         <button class="tab" :class="{ on: tab === 'essay' }" type="button" @click="openEssay">我的作文</button>
         <button class="tab tab-highlight" :class="{ on: tab === 'collocation' }" type="button" @click="openCollocation">背搭配</button>
         <button class="tab tab-highlight" :class="{ on: tab === 'story' }" type="button" @click="openStory">单词趣味记忆</button>
+        <button class="tab tab-highlight" :class="{ on: tab === 'review' }" type="button" @click="tab = 'review'">复习单词</button>
       </div>
     </header>
 
-    <LoadingState v-if="loading" />
+    <!-- 复习单词是独立分块词表，不受 3000 词表加载状态影响 -->
+    <section v-if="tab === 'review'"><ReviewWords /></section>
+
+    <LoadingState v-else-if="loading" />
     <ErrorState v-else-if="error && !words.length" :message="error" @retry="load" />
 
     <template v-else>
