@@ -12,7 +12,7 @@
 
 > **无需安装，手机浏览器直接访问即可体验完整功能。**
 
-- **演示地址**：`https://oils-programs-vegas-finals.trycloudflare.com`
+- **演示地址**：`https://builders-xbox-ann-janet.trycloudflare.com`
 - **演示账号**：见下方「访问方式」说明（账号密码由服务端 `.env` 配置，仓库中不含明文凭据）
 
 **安卓端访问方式**（三选一，推荐第 1 种）：
